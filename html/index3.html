@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Hungyu Chien">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="rating" content="General">
+    <base target="_target">
+    <meta name="description" content="">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style3.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!--font awesome cdn link-->
+   
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="loading"> 
+        <div class="loading-box">
+            <video src="./img/sunbird/480pxh360pxw.mp4" loop autoplay muted >
+            </video>
+            <div class="container">
+                <div class="percent">
+                    <div class="progress"></div>
+                </div>
+                <div class="dot"></div>  
+            </div>
+        </div>
+    </div>
+    
+    <div class="main-page">
+    <!--=========HEADER==========-->
+    <section class="media-w900">
+        <header>
+            <div class="absolute header-background"></div>
+            <div class="container">
+                <div class="zone">
+                    <div class="logo pointer"><a href="#home" target="_self">
+                        <img src="./img/base/logo60px.svg" alt="">
+                    </a></div>
+                    <i class="ri-menu-line pointer menu menubutton"></i>
+                </div>                
+            </div>        
+        </header>
+        <nav class="nav nav-active">
+        
+            <a href="#contact-me" target="_self" class="nav-option">
+                <div class="title-box ">
+                    <div class="shadow-box00"></div>
+                    <h4 class="vertical-rl absolute">卷五</h4>
+                    <h4 class="vertical-rl absolute">◆</h4>
+                    <h4 class="vertical-rl absolute">與我聯繫</h4>
+                    <img src="./img/header/contact-1.jpg" alt="">
+                </div>
+            </a>
+            <a href="#skill" target="_self" class="nav-option">
+                <div class="title-box">
+                    <div class="shadow-box00"></div>
+                    <h4 class="vertical-rl absolute">卷四</h4>
+                    <h4 class="vertical-rl absolute">◆</h4>
+                    <h4 class="vertical-rl absolute">技　　能</h4>
+                    <img src="./img/header/skill-1.jpg" alt="">
+                </div>
+            </a>
+            <a href="#gallery" target="_self" class="nav-option">
+                <div class="title-box">
+                    <div class="shadow-box00"></div>
+                    <h4 class="vertical-rl absolute">卷三</h4>
+                    <h4 class="vertical-rl absolute">◆</h4>
+                    <h4 class="vertical-rl absolute">作　　品</h4>
+                    <img src="./img/header/gallery-1.jpg" alt="">
+                </div>
+            </a>
+            <a href="#aboutme" target="_self" class="nav-option">
+                <div class="title-box">
+                    <div class="shadow-box00"></div>
+                    <h4 class="vertical-rl absolute">卷二</h4>
+                    <h4 class="vertical-rl absolute">◆</h4>
+                    <h4 class="vertical-rl absolute">關於我</h4>
+                    <img src="./img/header/aboutme-1.jpg" alt="">
+                </div>        
+            </a>
+            <a href="#home" target="_self" class="nav-option">
+                <div class="title-box">
+                    <div class="shadow-box00"></div>
+                    <h4 class="vertical-rl absolute">卷一</h4>
+                    <h4 class="vertical-rl absolute">◆</h4>
+                    <h4 class="vertical-rl absolute">開　　卷</h4>
+                    <img src="./img/header/home-1.jpg" alt="">
+                </div> 
+            </a>
+            <i class="ri-close-line nav-closebtn absolute pointer"></i>
+        </nav>
+    </section>
+    <section class="media-w899">
+        <header>            
+            <div class="container">
+                <div class="zone">
+                    <div class="logo">
+                        <a href="#home" target="_self">
+                            <img src="./img/base/logo60px.svg" alt="">
+                        </a>
+                    </div>
+                    <i class="ri-menu-line pointer menu menubutton"></i>
+                    
+                    <!-- <a href="">
+                        <i class="ri-function-fill pointer">
+                        </i>
+                        <p href="#" class="absolute">104/Resume</p>
+                    </a> -->
+                </div>
+            </div>
+        </header>
+        <nav class="nav nav-active home">
+            <a href="#home" target="_self" class="nav-option">
+                <div class="title-box">
+                    <div class="shadow-box00"></div>
+                    <h4 class="absolute">開　　卷</h4>
+                    <h4 class="absolute">◆</h4>
+                    <h4 class="absolute">卷一</h4>                
+                    <img src="./img/header/home-2.jpg" alt="" >
+                </div>
+            </a>
+            <a href="#aboutme" target="_self" class="nav-option">
+                <div class="title-box">
+                <div class="shadow-box00"></div>
+                <h4 class="absolute">關於我</h4>
+                <h4 class="absolute">◆</h4>
+                <h4 class="absolute">卷二</h4>                
+                <img src="./img/header/aboutme-2.jpg" alt="" >
+            </div></a>
+            <a href="#gallery" target="_self" class="nav-option">
+                <div class="title-box">
+                    <div class="shadow-box00"></div>
+                    <h4 class="absolute">作　　品</h4>
+                    <h4 class="absolute">◆</h4>
+                    <h4 class="absolute">卷三</h4>                
+                    <img src="./img/header/gallery-2.jpg" alt="">
+                </div>
+            </a>
+            <a href="#skill" target="_self" class="nav-option">
+                <div class="title-box">
+                    <div class="shadow-box00"></div>
+                    <h4 class="absolute">技　　能</h4>
+                    <h4 class="absolute">◆</h4>
+                    <h4 class="absolute">卷四</h4>                
+                    <img src="./img/header/skill-2.jpg" alt="">
+                </div>
+            </a>
+            <a href="#contact-me" target="_self" class="nav-option">
+                <div class="title-box">
+                    <div class="shadow-box00"></div>
+                    <h4 class="absolute">與我聯繫</h4>
+                    <h4 class="absolute">◆</h4>
+                    <h4 class="absolute">卷五</h4>                
+                    <img src="./img/header/contact-2.jpg" alt="">
+                </div>
+            </a>
+            <i class="ri-close-line nav-closebtn absolute pointer"></i>
+        </nav>        
+    </section>
+<!--=========HOME==========-->
+    <section id="home">
+        <div class="bg-container">
+            <img src="./img/section-a/background-a.jpg" alt="" class="base-bg bg-elements obj-fit-pos">
+            <img src="./img/section-a/sea-topback02.png" alt="" class="bg-elements obj-fit-pos" id="sea-topback">
+            <img src="./img/section-a/cloud-back02.png" alt="" class=" obj-fit-pos absolute" id="cloud-back">
+            <img src="./img/section-a/moon02.svg" alt="" class="obj-fit-pos absolute" id="moon">
+            <img src="./img/section-a/cloud-front02.png" alt="" class=" obj-fit-pos  absolute" id="cloud-front">
+            <img src="./img/section-a/title767.png" alt="" class="bg-elements title767 obj-fit-pos " id="title767">
+            
+            <img src="./img/section-a/sea-mid02.png" alt="" class=" bg-elements obj-fit-pos" id="sea-mid">
+            <img src="./img/section-a/mountain.png" alt="" class="bg-elements obj-fit-pos" id="mountain">
+           <!-- <img src="./img/section-a/mountain-left.png" alt="" class="absolute" id="mountain-left">
+           <img src="./img/section-a/mountain-right.png" alt="" class="absolute" id="mountain-right"> -->
+            <img src="./img/section-a/cloud-sky.png" alt="" class=" bg-elements obj-fit-pos" id="cloud-sky">
+           
+            <img src="./img/section-a/title766.png" alt="" class="absolute title766" id="title766">
+
+            <img src="./img/section-a/sea-bottom.png" alt="" class=" bg-elements obj-fit-pos" id="sea-bottom01">
+            
+            
+        </div> 
+    </section>
+<!--=========ABOUT ME==========-->
+    <section class="aboutme" >
+        <div class="bg-container">
+            <img src="./img/section-b/background-b.jpg" alt="" class="bg-elements obj-fit-pos">
+
+            <!--=========OVERLAY==========-->
+            <div class="bg-overlay ">
+                <img src="./img/section-a/./cloud-bottom-overlay.png" alt="" class="absolute overlay cloud-overlay" id="cloud-bottom">
+                <img src="./img/section-a/./cloud-bottom-overlay.png" alt="" class="overlay cloud-overlay">
+                <img src="./img/section-a/./cloud-bottom-overlay.png" alt="" class="overlay cloud-overlay">
+                
+                <img src="./img/section-a/star-overlay.png" alt="" class="overlay star-overlay" id="star01">
+                <img src="./img/section-a/star-overlay.png" alt="" class="overlay star-overlay" id="star02">
+                
+            </div>
+            <!--=========content==========-->
+            <div id="aboutme"></div>
+
+            <div class="content-container">
+                <div class="content">
+
+                    <div class="portfolio-link">
+                        <a href="http://youtube.com">
+                            <p class="vertical-rl content-text ">如您不喜歡此風格，<br>可由此參閱另一作品集。</p>
+                        </a>
+                    </div>
+                    <div class="text">
+                        <p class="vertical-rl content-text">我是簡宏祐，<br>
+                            目前正在朝轉職UI<br>
+                            與網頁設計的領域努力。<br>
+                            擅長繪圖、<br>
+                            原型製作、網頁語言、<br>
+                            平面設計、陳列設計、<br>
+                            影像特效。</p>
+                    </div>
+                    <div class="title">
+                        <img src="./img/base/ink_001.png" alt="" class="title-bg">
+                        <h3 class="vertical-rl title-text">關於我</h3>
+                    </div>
+
+                </div>
+                <div class="cloud-container">
+                    <div class="img-overlay">
+                        <img src="./img/section-b/bokupig.png" alt="">
+
+                    </div>
+                    <img src="./img/section-b/cloud_l_front.svg" alt=""
+                    class="absolute aboutme-cloud-front">
+                
+                    
+
+                </div>
+            </div>
+            <img src="./img/section-b/cloud_l_front.svg" alt=""
+                class="absolute aboutme-cloud-front">
+        </div>
+    </section>
+    <!--=========GALLERY==========-->
+    <section class="gallery">
+        <div class="bg-container">
+            <img src="./img/section-c/background-c.jpg" alt="" class="bg-elements obj-fit-pos">
+            
+            <div class="zhulong-container">
+                <div class="img-overlay-one absolute">
+                    <img src="./img/section-c/zholong01.png" alt="">
+                </div>
+                <div class="img-overlay-two absolute">
+                    <img src="./img/section-c/planet.svg" alt="">
+                </div>
+            </div>
+            <div id="gallery"></div>
+            <div class="content-container absolute">
+                <div class="mirror absolute"></div>
+                <div class="mask absolute">
+                    
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+
+                            <!--======CARD A======-->
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/p_aurorabook_scroll.svg" alt="" class="scroll">
+                                <div class="scroll-content">
+                                    <div class="img-overlay">
+                                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                                            <img src="./img/gallery/p_aurorabook.PNG" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="data">
+                                            <p class="absolute vertical-rl content-text">
+                                                這是我的第一個作品集網站，以作品集本身即為作品創作，靈感來源自大荒北經中的燭龍，以其幽玄之眼照看山海世界。
+                                            </p>
+                                        </div>
+                                        
+                                        <div class="title">
+                                            <img src="./img/base/ink_002.png" alt="">
+                                            <div class="absolute">
+                                                <h4 class="vertical-rl">作品／</h4>
+                                                <h4 class="vertical-rl">北經殘卷
+                                                </h4>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--======CARD B======-->
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/p_beetle_scroll.svg" alt="" class="scroll">
+                                <div class="scroll-content">
+                                    <div class="img-overlay">
+                                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                                            <img src="./img/gallery/p_beetle.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="data">
+                                            <p class="absolute vertical-rl content-text">
+                                                此作品集以呈現平台概念製作，佐以甲蟲圖繪綴飾視覺風格。不適應北經殘卷者，可參此作品集。
+                                            </p>
+                                        </div>
+                                        
+                                        <div class="title">
+                                            <img src="./img/base/ink_002.png" alt="">
+                                            <div class="absolute">
+                                                <h4 class="vertical-rl">作品／</h4>
+                                                <h4 class="vertical-rl">羽衣悔換
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--======CARD C======-->
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/p_restaurant_scroll.svg" alt="" class="scroll">
+                                <div class="scroll-content">
+                                    <div class="img-overlay">
+                                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                                            <img src="./img/gallery/p_restaurant.PNG" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="data">
+                                            <p class="absolute vertical-rl content-text">
+                                                這是我第一個完整練習網頁，主要熟學習網頁佈局以及引用第三方套件製作簡易動態效果，以及使用 Java Script 調動元素。
+                                            </p>
+                                        </div>
+                                        
+                                        <div class="title">
+                                            <img src="./img/base/ink_002.png" alt="">
+                                            <div class="absolute">
+                                                <h4 class="vertical-rl">作品／</h4>
+                                                <h4 class="vertical-rl">餐廳網站
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--======CARD D======-->
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/p_desert_scroll.svg" alt="" class="scroll">
+                                <div class="scroll-content">
+                                    <div class="img-overlay">
+                                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                                            <img src="./img/gallery/p_desert.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="data">
+                                            <p class="absolute vertical-rl content-text">
+                                                透過練習製作此網站，加強CSS 語言中的位置與網格練習，同時有系統的將顏色、文本字體、行距先行設置。
+                                            </p>
+                                        </div>
+                                        
+                                        <div class="title">
+                                            <img src="./img/base/ink_002.png" alt="">
+                                            <div class="absolute">
+                                                <h4 class="vertical-rl">作品／</h4>
+                                                <h4 class="vertical-rl">旅遊網站
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--======CARD E======-->
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/p_resort_scroll.svg" alt="" class="scroll">
+                                <div class="scroll-content">
+                                    <div class="img-overlay">
+                                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                                            <img src="./img/gallery/p_resort.PNG" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="data">
+                                            <p class="absolute vertical-rl content-text">
+                                                影片播放作為網站背景蔚為潮流，透過此渡假網站做為學習，並加入點擊切換功能。同時練習全頁覆蓋的導航、會員登入的寫法。
+                                            </p>
+                                        </div>
+                                        
+                                        <div class="title">
+                                            <img src="./img/base/ink_002.png" alt="">
+                                            <div class="absolute">
+                                                <h4 class="vertical-rl">作品／</h4>
+                                                <h4 class="vertical-rl">渡假網站
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--======CARD F======-->
+                            <div class="swiper-slide">
+                                <img src="./img/gallery/p_aurorabook_scroll.svg" alt="" class="scroll">
+                                <div class="scroll-content">
+                                    <div class="img-overlay">
+                                        <a href="http://" target="_blank" rel="noopener noreferrer">
+                                            <img src="./img/gallery/p_aurorabook.PNG" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="text">
+                                        <div class="data">
+                                            <p class="absolute vertical-rl content-text">
+                                                陳列、平面設計，加上一些話題展覽與活動影片剪輯。這是我在新光三越的作品。
+                                            </p>
+                                        </div>
+                                        
+                                        <div class="title">
+                                            <img src="./img/base/ink_002.png" alt="">
+                                            <div class="absolute">
+                                                <h4 class="vertical-rl">作品／</h4>
+                                                <h4 class="vertical-rl">新光三越
+                                                </h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <img src="./img/section-c/cloud_bottom_overlay.png" alt="" class="overlay">           -->
+        </div>
+    </section>
+    <!--=========SKILL==========-->
+    <section class="skill">
+        <div class="bg-container">
+            <img src="./img/section-d/background-d.png" alt="" class="bg-elements obj-fit-pos">
+            <img src="./img/section-d/cloud_front.svg" alt="" class="bg-elements cloud-front">
+
+            <div id="skill"></div>
+
+            <div class="magic-circle-container">
+                <div class="content">
+                    <span class="magic_circle01" data-src="./img/section-d/Magic_circle01.svg"></span>
+                    <span class="magic_circle02" data-src="./img/section-d/Magic_circle02.svg"></span>
+
+                    <img src="" alt="" class="magic-circle">
+                    <div class="text-container">
+                        <span class="center01" data-src="./img/section-d/center01.svg"></span>
+                        <span class="center02" data-src="./img/section-d/center02.svg"></span>
+                        <img src="" alt="" class="text-bg elements-position center">
+                        <p class="vertical-rl content-text context-menu absolute text-intro text-box intro-active"
+                            id="text-in">請點選星宿陣圖中的軟<br>體名稱獲得說明。</p>
+                    </div>
+
+                    <!--======HTML BOX======-->
+                        <div class="html-box absolute pointer">
+                            <h4 class="vertical-rl content-text html-text text-box absolute">
+                                使用HTM建立<br>
+                                網頁基礎，<br>
+                                並以CSS調整編排，<br>
+                                點綴設計。
+                            </h4>
+                            <div class="shadow-box02 absolute border-radius"></div>
+                            <img src="./img/section-d/html.svg" alt="" class="elements-html elements-position img-btn">
+                            <div class="shadow-box01  absolute border-radius"></div>
+                        </div>
+                    
+                    <!--======CSS BOX======-->
+                    
+                        <div class="css-box absolute pointer">
+                            <h4 class="vertical-rl content-text css-text text-box absolute">
+                                透過CSS為頁面排版，<br>
+                                調整元素大小、顏色、<br>
+                                背景、內外間距、<br>
+                                位置關係、簡易動效，<br>
+                                豐富網頁視覺。<br>
+                            </h4>
+                            <div class="shadow-box02 absolute border-radius"></div>
+                            <img src="./img/section-d/css.svg" alt="" class="elements-css elements-position img-btn">
+                            <div class="shadow-box01  absolute border-radius"></div>
+                        </div>
+                    <!--======JS BOX======-->
+                        <div class="js-box absolute pointer">
+                            <h4 class="vertical-rl content-text js-text text-box absolute">
+                                透過JavaScript調動網<br>
+                                頁元件，或增減、改變<br>
+                                其樣式表內的屬性與數<br>
+                                值。使網頁元件隱現、<br>
+                                進行動作。<br>
+                            </h4>
+                            <div class="shadow-box02 absolute border-radius"></div>
+                            <img src="./img/section-d/javascript.svg" alt=""
+                                class="elements-js elements-position img-btn">
+                            <div class="shadow-box01 absolute border-radius"></div>
+                        </div>
+                    <!--======PS BOX======-->
+                    
+                        <div class="ps-box absolute pointer undo-scale">
+                            <h4 class="vertical-rl content-text ps-text text-box absolute">
+                                
+                            </h4>
+                           
+                            <div class="shadow-box02 absolute border-radius"></div>
+                            <img src="" alt=""
+                                class="elements-ps elements-position img-btn ps-boximg">
+                            <div class="shadow-box01 absolute border-radius"></div>
+                        </div>
+                        <span class="photoshop" data-src="./img/section-d/photoshop.svg"></span>
+                        <span class="adobe" data-src="./img/section-d/adobe.svg"></span>
+                    
+                    <!--======AE BOX======-->
+                    
+                        <div class="ae-box absolute pointer">
+                            <h4 class="vertical-rl content-text ae-text text-box absolute">
+                                使用AfterEffect 配合<br>
+                                2D或3D圖片檔，製作<br>
+                                動畫影片。<br>
+                                為影片檔案加入特效或<br>
+                                合成。
+                            </h4>
+                            <div class="shadow-box02 absolute border-radius"></div>
+                            <img src="./img/section-d/aftereffect.svg" alt=""
+                                class="elements-ae elements-position img-btn">
+                            <div class="shadow-box01 absolute border-radius"></div>
+                        </div>
+                    <!--======PRI BOX======-->
+                    
+                        <div class="pri-box absolute pointer">
+                            <h4 class="vertical-rl content-text pri-text text-box absolute">
+                                使Premiere製作、剪輯<br>
+                                影片以及配音。
+                            </h4>
+                            <div class="shadow-box02 absolute border-radius"></div>
+                            <img src="./img/section-d/primiere.svg" alt=""
+                                class="elements-pri elements-position img-btn">
+                            <div class="shadow-box01 absolute border-radius"></div>
+                        </div>
+                    
+                    <!--======AI BOX======-->
+                    
+                        <div class="ai-box absolute pointer">
+                            <h4 class="vertical-rl content-text ai-text text-box absolute">
+                                使用Illustrator 繪製<br>
+                                向量圖形，設計立體陳<br>
+                                列物，模擬陳列物結構<br>
+                                組裝、擺放示意圖、展<br>
+                                場平面圖等。<br>
+                                為印刷物作單張或多頁<br>
+                                排版。
+                            </h4>
+                            <div class="shadow-box02 absolute border-radius"></div>
+                            <img src="./img/section-d/illustrator.svg" alt=""
+                                class="elements-ai elements-position img-btn">
+                            <div class="shadow-box01 absolute border-radius"></div>
+                        </div>
+                    
+                    <!--======IN BOX======-->
+                    
+                        <div class="in-box absolute pointer">
+                            <h4 class="vertical-rl content-text in-text text-box absolute">
+                                使用InDesign進行多頁<br>
+                                印刷物編輯與排版，封<br>
+                                裝後交付印刷廠。
+                            </h4>
+                            <div class="shadow-box02 absolute border-radius"></div>
+                            <img src="./img/section-d/indesign.png" alt=""
+                                class="elements-in elements-position img-btn">
+                            <div class="shadow-box01 absolute border-radius"></div>
+                        </div>
+                    
+                    <!--======FIGMA BOX======-->
+                        <div class="figma-box absolute pointer">
+                            <h4 class="vertical-rl content-text figma-text text-box absolute">
+                                使用Figma設計網頁<br>
+                                元件，綴飾網頁視覺<br>
+                                風格。透過組件、自<br>
+                                動佈局、約束，完成<br>
+                                可自適應框架尺寸的<br>
+                                細節動態原型。<br>
+                            </h4>
+                            <div class="shadow-box02 absolute border-radius"></div>
+                            <img src="./img/section-d/figma.svg" alt=""
+                                class="elements-figma elements-position img-btn">
+                            <div class="shadow-box01 absolute border-radius"></div>
+                        </div>
+                    
+                    <i class="ri-close-line close-btn absolute pointer"></i>
+                    <div class="empty-element pointer-active text-active shadow-active opacity0-active opacity1-active
+                    ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=========CONTACT ME==========-->
+    <section class="contact" >
+        <div class="bg-container">
+            <img src="./img/section-e/background-e.jpg" alt="" class="bg-elements obj-fit-pos">
+
+            <img src="./img/section-e/cloud.svg" alt="" class="obj-fit-pos cloud absolute">
+            <img src="./img/section-e/mountain.svg" alt="" class="obj-fit-pos mountain absolute">
+
+            <div id="contact-me"></div>
+            <div class="content-container">
+                <div class="contact-me">
+                    <div class="contact-method">
+                        <div class="mail">
+                            <div class="shadow-box03"></div>
+                            <h4 class="content-text absolute">遞傳件信</h4>
+                            <a href="mailto:ddnstarAhora@gmail.com" target="_blank" rel="noopener noreferrer" class="absolute">
+                                <img src="./img/section-e/mail.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="message">
+                            <div class="shadow-box03"></div>
+                            <h4 class="content-text absolute">我給言留</h4>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="absolute">
+                                <img src="./img/section-e/meaasge.jpg" alt="">
+                            </a>
+                        </div>                   
+                        
+                    </div>
+                    <div class="text">
+                        <p class="vertical-rl absolute">如您對我有興趣，請透過人力銀行與我聯繫，或使用公司郵件寄至我的信箱。
+
+                        </p>
+                    </div>
+                    <div class="title">
+                        <img src="./img/base/ink_001.png" alt="" class="title-bg absolute">
+                        <h3 class="vertical-rl title-text absolute">與我聯繫</h3>
+                    </div>
+                </div>
+                <div class="stagbeetle">                    
+                    <div class="link">
+                        <div class="shadow-box03"></div>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img src="./img/gallery/p_beetle.png" alt="">
+                        </a>
+                    </div>
+                    <div class="text">
+                        <p class="vertical-rl absolute">非常感謝您撥冗觀看，若您不喜歡此作品集風格，歡迎參閱另一作品集。</p>
+                    </div>
+                    <div class="title">
+                        <img src="./img/base/ink_001.png" alt="" class="title-bg absolute">
+                        <h3 class="vertical-rl title-text absolute">其他作品</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer copyright">
+        <span>&#169; 2021-2022 布榖豬/BOKU-PIG.&nbsp;&nbsp;All rights reserved.</span>
+    </section>
+    </div>
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="./app2.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".swiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            spaceBetween: 220,
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 30,
+                modifier: 12,
+                slideShadows: 0,
+
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+
+        
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,1076 @@
+/*********************************************
+*********************************************
+900
+*********************************************
+**********************************************/
+
+.media-w900 nav {
+    display: block;
+    background: rgba(23, 29, 39, 0.96);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 14;
+    transition: all 0.3s ease;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.media-w900 .nav-grid-box {
+    position: relative;
+    display: grid;
+    width: fit-content;
+    height: 400px;
+    grid-template-columns: repeat(5, 112.94px);
+    column-gap: 1.75rem;
+    margin: auto;
+    transform: translateY(calc(50vh - 192px));
+    grid-area: center;
+    overflow: visible;
+}
+
+/*home*/
+.media-w900 nav a.home-link {
+    width: 112.94px;
+    height: 384px;
+    z-index: 1000;
+    transform: scale(1);
+    transition: all .3s ease;
+    opacity: .56;
+}
+
+.media-w900 nav a.home-link:hover {
+    transform: scale(.96);
+    z-index: 1000;
+    opacity: .97;
+}
+
+.media-w900 a.home-link .home-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-w900 a.home-link .home-box .home-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(255, 246, 120, .2);
+    width: 100%;
+    height: 0%;
+    z-index: 15;
+    transition: all .3s ease;
+}
+
+.media-w900 a.home-link:hover .home-box .home-shadow {
+    box-shadow: 0 0 10px rgba(255, 246, 120, .7);
+    height: 100%;
+    z-index: 15;
+}
+
+.media-w900 a.home-link .home-box .home-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+    opacity: .6;
+}
+
+.media-w900 a.home-link:hover .home-box .home-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+    opacity: .8;
+}
+
+.media-w900 a.home-link .home-box .home-content {
+    position: absolute;
+    top: 10.7rem;
+    width: 100%;
+    height: 100%;
+    z-index: 17;
+    display: flex;
+    gap: .2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-w900 .home-box .home-content h4 {
+    transition: all .3s ease;
+}
+
+.media-w900 .home-box .home-content .home-chapter {
+    font-size: 1.35rem;
+    transform: scale(.87) translateY(.8rem);
+}
+
+.media-w900 a.home-link:hover .home-content .home-chapter {
+    transform: scale(.87) translateY(0rem);
+}
+
+.media-w900 .home-box .home-content .home-square {
+    transform: scale(0);
+    opacity: 0;
+}
+
+.media-w900 a.home-link:hover .home-box .home-content .home-square {
+    transform: scale(.6);
+    opacity: 1;
+}
+
+.media-w900 .home-box .home-content .home-title {
+    font-size: 1.7rem;
+    letter-spacing: 0.13rem;
+    transform: scale(.87) translateY(-1.3rem);
+}
+
+.media-w900 a.home-link:hover .home-box .home-content .home-title {
+    transform: scale(.87) translateY(.25rem);
+}
+
+/*aboutme*/
+.media-w900 nav a.aboutme-link {
+    width: 112.94px;
+    height: 384px;
+    z-index: 1000;
+    transform: scale(1);
+    transition: all .3s ease;
+    opacity: .56;
+}
+
+.media-w900 nav a.aboutme-link:hover {
+    transform: scale(.96);
+    z-index: 1000;
+    opacity: .97;
+}
+
+.media-w900 a.aboutme-link .aboutme-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-w900 a.aboutme-link .aboutme-box .aboutme-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(255, 246, 120, .2);
+    width: 100%;
+    height: 0%;
+    z-index: 15;
+    transition: all .3s ease;
+}
+
+.media-w900 a.aboutme-link:hover .aboutme-box .aboutme-shadow {
+    box-shadow: 0 0 10px rgba(255, 246, 120, .7);
+    height: 100%;
+    z-index: 15;
+}
+
+.media-w900 a.aboutme-link .aboutme-box .aboutme-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+    opacity: .6;
+}
+
+.media-w900 a.aboutme-link:hover .aboutme-box .aboutme-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+    opacity: .8;
+}
+
+.media-w900 a.aboutme-link .aboutme-box .aboutme-content {
+    position: absolute;
+    top: 10.7rem;
+    width: 100%;
+    height: 100%;
+    z-index: 17;
+    display: flex;
+    gap: .2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-w900 .aboutme-box .aboutme-content h4 {
+    transition: all .3s ease;
+}
+
+.media-w900 .aboutme-box .aboutme-content .aboutme-chapter {
+    font-size: 1.35rem;
+    transform: scale(.87) translateY(.8rem);
+}
+
+.media-w900 a.aboutme-link:hover .aboutme-content .aboutme-chapter {
+    transform: scale(.87) translateY(0rem);
+}
+
+.media-w900 .aboutme-box .aboutme-content .aboutme-square {
+    transform: scale(0);
+    opacity: 0;
+}
+
+.media-w900 a.aboutme-link:hover .aboutme-box .aboutme-content .aboutme-square {
+    transform: scale(.6);
+    opacity: 1;
+}
+
+.media-w900 .aboutme-box .aboutme-content .aboutme-title {
+    font-size: 1.7rem;
+    transform: scale(.87) translateY(-1.3rem);
+    letter-spacing: 1.07rem;
+}
+
+.media-w900 a.aboutme-link:hover .aboutme-box .aboutme-content .aboutme-title {
+    transform: scale(.87) translateY(.25rem);
+}
+
+/*gallery*/
+.media-w900 nav a.gallery-link {
+    width: 112.94px;
+    height: 384px;
+    z-index: 1000;
+    transform: scale(1);
+    transition: all .3s ease;
+    opacity: .56;
+}
+
+.media-w900 nav a.gallery-link:hover {
+    transform: scale(.96);
+    z-index: 1000;
+    opacity: .97;
+}
+
+.media-w900 a.gallery-link .gallery-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-w900 a.gallery-link .gallery-box .gallery-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(255, 246, 120, .2);
+    width: 100%;
+    height: 0%;
+    z-index: 15;
+    transition: all .3s ease;
+}
+
+.media-w900 a.gallery-link:hover .gallery-box .gallery-shadow {
+    box-shadow: 0 0 10px rgba(255, 246, 120, .7);
+    height: 100%;
+    z-index: 15;
+}
+
+.media-w900 a.gallery-link .gallery-box .gallery-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+    opacity: .6;
+}
+
+.media-w900 a.gallery-link:hover .gallery-box .gallery-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+    opacity: .8;
+}
+
+.media-w900 a.gallery-link .gallery-box .gallery-content {
+    position: absolute;
+    top: 10.7rem;
+    width: 100%;
+    height: 100%;
+    z-index: 17;
+    display: flex;
+    gap: .2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-w900 .gallery-box .gallery-content h4 {
+    transition: all .3s ease;
+}
+
+.media-w900 .gallery-box .gallery-content .gallery-chapter {
+    font-size: 1.35rem;
+    transform: scale(.87) translateY(.8rem);
+}
+
+.media-w900 a.gallery-link:hover .gallery-content .gallery-chapter {
+    transform: scale(.87) translateY(0rem);
+}
+
+.media-w900 .gallery-box .gallery-content .gallery-square {
+    transform: scale(0);
+    opacity: 0;
+}
+
+.media-w900 a.gallery-link:hover .gallery-box .gallery-content .gallery-square {
+    transform: scale(.6);
+    opacity: 1;
+}
+
+.media-w900 .gallery-box .gallery-content .gallery-title {
+    font-size: 1.7rem;
+    letter-spacing: 0.13rem;
+    transform: scale(.87) translateY(-1.3rem);
+}
+
+.media-w900 a.gallery-link:hover .gallery-box .gallery-content .gallery-title {
+    transform: scale(.87) translateY(.25rem);
+}
+
+/*skill*/
+.media-w900 nav a.skill-link {
+    width: 112.94px;
+    height: 384px;
+    z-index: 1000;
+    transform: scale(1);
+    transition: all .3s ease;
+    opacity: .56;
+}
+
+.media-w900 nav a.skill-link:hover {
+    transform: scale(.96);
+    z-index: 1000;
+    opacity: .97;
+}
+
+.media-w900 a.skill-link .skill-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-w900 a.skill-link .skill-box .skill-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(255, 246, 120, .2);
+    width: 100%;
+    height: 0%;
+    z-index: 15;
+    transition: all .3s ease;
+}
+
+.media-w900 a.skill-link:hover .skill-box .skill-shadow {
+    box-shadow: 0 0 10px rgba(255, 246, 120, .7);
+    height: 100%;
+    z-index: 15;
+}
+
+.media-w900 a.skill-link .skill-box .skill-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+    opacity: .6;
+}
+
+.media-w900 a.skill-link:hover .skill-box .skill-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+    opacity: .8;
+}
+
+.media-w900 a.skill-link .skill-box .skill-content {
+    position: absolute;
+    top: 10.7rem;
+    width: 100%;
+    height: 100%;
+    z-index: 17;
+    display: flex;
+    gap: .2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-w900 .skill-box .skill-content h4 {
+    transition: all .3s ease;
+}
+
+.media-w900 .skill-box .skill-content .skill-chapter {
+    font-size: 1.35rem;
+    transform: scale(.87) translateY(.8rem);
+}
+
+.media-w900 a.skill-link:hover .skill-content .skill-chapter {
+    transform: scale(.87) translateY(0rem);
+}
+
+.media-w900 .skill-box .skill-content .skill-square {
+    transform: scale(0);
+    opacity: 0;
+}
+
+.media-w900 a.skill-link:hover .skill-box .skill-content .skill-square {
+    transform: scale(.6);
+    opacity: 1;
+}
+
+.media-w900 .skill-box .skill-content .skill-title {
+    font-size: 1.7rem;
+    letter-spacing: 0.13rem;
+    transform: scale(.87) translateY(-1.3rem);
+}
+
+.media-w900 a.skill-link:hover .skill-box .skill-content .skill-title {
+    transform: scale(.87) translateY(.25rem);
+}
+
+
+
+
+/*contactme*/
+.media-w900 nav a.contactme-link {
+    width: 112.94px;
+    height: 384px;
+    z-index: 1000;
+    transform: scale(1);
+    transition: all .3s ease;
+    opacity: .56;
+}
+
+.media-w900 nav a.contactme-link:hover {
+    transform: scale(.96);
+    z-index: 1000;
+    opacity: .97;
+}
+
+.media-w900 a.contactme-link .contactme-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-w900 a.contactme-link .contactme-box .contactme-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(255, 246, 120, .2);
+    width: 100%;
+    height: 0%;
+    z-index: 15;
+    transition: all .3s ease;
+}
+
+.media-w900 a.contactme-link:hover .contactme-box .contactme-shadow {
+    box-shadow: 0 0 10px rgba(255, 246, 120, .7);
+    height: 100%;
+    z-index: 15;
+}
+
+.media-w900 a.contactme-link .contactme-box .contactme-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+    opacity: .6;
+}
+
+.media-w900 a.contactme-link:hover .contactme-box .contactme-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+    opacity: .8;
+}
+
+.media-w900 a.contactme-link .contactme-box .contactme-content {
+    position: absolute;
+    top: 10.7rem;
+    width: 100%;
+    height: 100%;
+    z-index: 17;
+    display: flex;
+    gap: .2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-w900 .contactme-box .contactme-content h4 {
+    transition: all .3s ease;
+}
+
+.media-w900 .contactme-box .contactme-content .contactme-chapter {
+    font-size: 1.35rem;
+    transform: scale(.87) translateY(.8rem);
+}
+
+.media-w900 a.contactme-link:hover .contactme-content .contactme-chapter {
+    transform: scale(.87) translateY(0rem);
+}
+
+.media-w900 .contactme-box .contactme-content .contactme-square {
+    transform: scale(0);
+    opacity: 0;
+}
+
+.media-w900 a.contactme-link:hover .contactme-box .contactme-content .contactme-square {
+    transform: scale(.6);
+    opacity: 1;
+}
+
+.media-w900 .contactme-box .contactme-content .contactme-title {
+    font-size: 1.7rem;
+    letter-spacing: 0.13rem;
+    transform: scale(.87) translateY(-1.3rem);
+}
+
+.media-w900 a.contactme-link:hover .contactme-box .contactme-content .contactme-title {
+    transform: scale(.87) translateY(.25rem);
+}
+
+
+/*********************************************
+*********************************************
+899
+*********************************************
+**********************************************/
+
+.media-w899 nav {
+    display: block;
+    background: rgba(23, 29, 39, 0.96);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 14;
+    transition: all 0.3s ease;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.media-w899 .nav-grid-box {
+    position: relative;
+    display: grid;
+    width: fit-content;
+    height: fit-content;
+    grid-template-rows: repeat(5, 80px);
+    row-gap: 1rem;
+    margin: auto;
+    transform: translateY(calc(50vh - 232px));
+    grid-area: center;
+    overflow: visible;
+}
+
+.media-w899 .nav h4 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    transform: scale(.75);
+}
+
+/*home*/
+.media-w899 nav a.home-link {
+    width: 280px;
+    height: 80px;
+    z-index: 1000;
+    transform: scale(1);
+    transition: all .3s ease;
+}
+
+.media-w899 nav a.home-link:hover {
+    transform: scale(.96);
+    z-index: 1000;
+}
+
+.media-w899 a.home-link .home-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-w899 a.home-link .home-box .home-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(255, 246, 120, .2);
+    width: 0%;
+    height: 100%;
+    z-index: 15;
+    transition: all .3s ease;
+}
+
+.media-w899 a.home-link:hover .home-box .home-shadow {
+    box-shadow: 0 0 10px rgba(255, 246, 120, .7);
+    width: 100%;
+    z-index: 15;
+}
+
+.media-w899 a.home-link .home-box .home-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+
+.media-w899 a.home-link:hover .home-box .home-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+
+.media-w899 a.home-link .home-box .home-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 17;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.media-w899 .home-box .home-content .home-chapter {
+    position: absolute;
+    font-size: 1.35rem;
+    left: 13.5rem;
+}
+.media-w899 .home-box .home-content .home-square {
+    position: absolute;
+    font-size: .35rem;
+    left: 12.74rem;
+}
+.media-w899 .home-box .home-content .home-title {
+   
+position: absolute;
+font-size: 1.7rem;
+letter-spacing: 0.13rem;
+left: 6.5rem;
+}
+
+/*aboutme*/
+.media-w899 nav a.aboutme-link {
+    width: 280px;
+    height: 80px;
+    z-index: 1000;
+    transform: scale(1);
+    transition: all .3s ease;
+}
+
+.media-w899 nav a.aboutme-link:hover {
+    transform: scale(.96);
+    z-index: 1000;
+}
+
+.media-w899 a.aboutme-link .aboutme-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-w899 a.aboutme-link .aboutme-box .aboutme-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(255, 246, 120, .2);
+    width: 0%;
+    height: 100%;
+    z-index: 15;
+    transition: all .3s ease;
+}
+
+.media-w899 a.aboutme-link:hover .aboutme-box .aboutme-shadow {
+    box-shadow: 0 0 10px rgba(255, 246, 120, .7);
+    width: 100%;
+    z-index: 15;
+}
+
+.media-w899 a.aboutme-link .aboutme-box .aboutme-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+
+.media-w899 a.aboutme-link:hover .aboutme-box .aboutme-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+
+.media-w899 a.aboutme-link .aboutme-box .aboutme-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 17;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.media-w899 .aboutme-box .aboutme-content .aboutme-chapter {
+    position: absolute;
+    font-size: 1.35rem;
+    left: 13.5rem;
+}
+.media-w899 .aboutme-box .aboutme-content .aboutme-square {
+    position: absolute;
+    font-size: .35rem;
+    left: 12.74rem;
+}
+.media-w899 .aboutme-box .aboutme-content .aboutme-title {
+   
+position: absolute;
+font-size: 1.7rem;
+letter-spacing: 0.9rem;
+left: 6.5rem;
+}
+
+/*gallery*/
+.media-w899 nav a.gallery-link {
+    width: 280px;
+    height: 80px;
+    z-index: 1000;
+    transform: scale(1);
+    transition: all .3s ease;
+}
+
+.media-w899 nav a.gallery-link:hover {
+    transform: scale(.96);
+    z-index: 1000;
+}
+
+.media-w899 a.gallery-link .gallery-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-w899 a.gallery-link .gallery-box .gallery-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(255, 246, 120, .2);
+    width: 0%;
+    height: 100%;
+    z-index: 15;
+    transition: all .3s ease;
+}
+
+.media-w899 a.gallery-link:hover .gallery-box .gallery-shadow {
+    box-shadow: 0 0 10px rgba(255, 246, 120, .7);
+    width: 100%;
+    z-index: 15;
+}
+
+.media-w899 a.gallery-link .gallery-box .gallery-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+
+.media-w899 a.gallery-link:hover .gallery-box .gallery-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+
+.media-w899 a.gallery-link .gallery-box .gallery-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 17;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.media-w899 .gallery-box .gallery-content .gallery-chapter {
+    
+position: absolute;
+font-size: 1.35rem;
+left: 13.5rem;
+}
+.media-w899 .gallery-box .gallery-content .gallery-square {
+    position: absolute;
+    font-size: .35rem;
+    left: 12.74rem;
+}
+.media-w899 .gallery-box .gallery-content .gallery-title {
+   
+position: absolute;
+font-size: 1.7rem;
+letter-spacing: 0.13rem;
+left: 6.5rem;
+}
+
+/*skill*/
+.media-w899 nav a.skill-link {
+    width: 280px;
+    height: 80px;
+    z-index: 1000;
+    transform: scale(1);
+    transition: all .3s ease;
+}
+
+.media-w899 nav a.skill-link:hover {
+    transform: scale(.96);
+    z-index: 1000;
+}
+
+.media-w899 a.skill-link .skill-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-w899 a.skill-link .skill-box .skill-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(255, 246, 120, .2);
+    width: 0%;
+    height: 100%;
+    z-index: 15;
+    transition: all .3s ease;
+}
+
+.media-w899 a.skill-link:hover .skill-box .skill-shadow {
+    box-shadow: 0 0 10px rgba(255, 246, 120, .7);
+    width: 100%;
+    z-index: 15;
+}
+
+.media-w899 a.skill-link .skill-box .skill-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+
+.media-w899 a.skill-link:hover .skill-box .skill-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+
+.media-w899 a.skill-link .skill-box .skill-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 17;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.media-w899 .skill-box .skill-content .skill-chapter {
+    position: absolute;
+    font-size: 1.35rem;
+    left: 13.5rem;
+}
+.media-w899 .skill-box .skill-content .skill-square {
+    position: absolute;
+    font-size: .35rem;
+    left: 12.74rem;
+}
+.media-w899 .skill-box .skill-content .skill-title {
+    position: absolute;
+    font-size: 1.7rem;
+    letter-spacing: 0.13rem;
+    left: 6.5rem;
+}
+
+/*contactme*/
+.media-w899 nav a.contactme-link {
+    width: 280px;
+    height: 80px;
+    z-index: 1000;
+    transform: scale(1);
+    transition: all .3s ease;
+}
+
+.media-w899 nav a.contactme-link:hover {
+    transform: scale(.96);
+    z-index: 1000;
+}
+
+.media-w899 a.contactme-link .contactme-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media-w899 a.contactme-link .contactme-box .contactme-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(255, 246, 120, .2);
+    width: 0%;
+    height: 100%;
+    z-index: 15;
+    transition: all .3s ease;
+}
+
+.media-w899 a.contactme-link:hover .contactme-box .contactme-shadow {
+    box-shadow: 0 0 10px rgba(255, 246, 120, .7);
+    width: 100%;
+    z-index: 15;
+}
+
+.media-w899 a.contactme-link .contactme-box .contactme-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+
+.media-w899 a.contactme-link:hover .contactme-box .contactme-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 16;
+}
+
+.media-w899 a.contactme-link .contactme-box .contactme-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 17;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.media-w899 .contactme-box .contactme-content .contactme-chapter {
+    position: absolute;
+    font-size: 1.35rem;
+    left: 13.5rem;
+}
+.media-w899 .contactme-box .contactme-content .contactme-square {
+    position: absolute;
+    font-size: .35rem;
+    left: 12.74rem;
+}
+.media-w899 .contactme-box .contactme-content .contactme-title {
+    position: absolute;
+    font-size: 1.7rem;
+    letter-spacing: 0.13rem;
+    left: 6.5rem;
+}
+
+/* close btn */
+.media-w900 nav .nav-closebtn {
+    top: 3rem;
+    right: 5rem;
+    z-index: 14;
+    color: var(--color-text);
+    font-size: 2rem;
+    transition: all 0.3s ease;
+    opacity: 0.65;
+}
+
+.media-w899 nav .nav-closebtn {
+    top: -1.25rem;
+    right: -3rem;
+    z-index: 14;
+    color: var(--color-text);
+    font-size: 1.75rem;
+    transition: all 0.3s ease;
+    opacity: 0.65;
+}
+.media-w900 nav .nav-closebtn:hover,
+.media-w899 nav .nav-closebtn:hover {
+    opacity: 1;
+    transform: scale(0.9);
+}
+
+
+/*--------------------------------------
+  JAVA SCRIPT 調用 (HEADER)
+  ---------------------------------------*/
+.nav.nav-active {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+
+
+@media screen and (min-width: 899px) {
+    .media-w900 {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .media-w899 {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    .media-w900 {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .media-w899 {
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
+
+@media screen and (max-width: 381px){
+    .media-w899 nav .nav-closebtn {
+        top: -3rem;
+        right: -1.75rem;
+    }
+}
+@media screen and (max-width: 360px){
+    .media-w899 nav .nav-closebtn {
+        top: -3rem;
+        right: -1rem;
+    }
+}

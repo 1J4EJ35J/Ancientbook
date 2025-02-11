@@ -1,0 +1,27 @@
+Adobe After Effects v11.0 (Windows 64) render log for project “sunbird Project.aep”
+
+Rendering started on 2022/1/14 at 下午 06:35:07
+
+
+  2022/1/14 下午 06:35:07: Starting composition “sunbird 2”.
+
+
+  Output To: C:\Users\tp6vu\Desktop\homework\web\img\sunbird\sunbird 7.mov
+  
+  2022/1/14 下午 06:35:16: Finished composition “sunbird 2”.
+
+
+
+  2022/1/14 下午 06:35:16: Starting composition “sunbird 2”.
+
+
+  Output To: C:\Users\tp6vu\Desktop\homework\web\img\sunbird\sunbird 8.mov
+  
+  2022/1/14 下午 06:35:19: Finished composition “sunbird 2”.
+
+
+
+  Total Time Elapsed: 12 Seconds
+
+Log closed on 2022/1/14 at 下午 06:35:19
+
