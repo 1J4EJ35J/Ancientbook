@@ -2058,50 +2058,10 @@ CONTACT ME
 
 /*********************************************
 *********************************************
-footer
+footer-zone
 *********************************************
 **********************************************/
-.footer {
-  background: black;
-  padding: .8rem;
-  display: flex;
-  justify-content: center;
-  /* border: 1px solid black; */
-}
 
-.footer span {
-  font-size: 0.4rem;
-  letter-spacing: 0.07rem;
-  color: var(--color-copyright-text);
-}
-
-.copyright a {
-  cursor: pointer;
-  position: relative;
-  transition: all .3s linear;
-  color: var(--color-copyright-text);
-  border-bottom: 1px solid rgba(0, 0, 0, 0);
-}
-
-.copyright a::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 0%;
-  height: 100%;
-  border-bottom: 1px solid var(--color-copyright-moreinfo);
-  transition: all .3s linear;
-}
-
-.copyright a:hover {
-  color: var(--color-copyright-moreinfo);
-}
-
-.copyright a:hover::after {
-  left: 0%;
-  width: 100%;
-}
 
 /*********************************************
 copyright 在style-copyrights.css
@@ -2143,4 +2103,45 @@ Media Device in Response.css
   -webkit-user-select: none;
   -moz-user-select: none;
   -webkit-touch-callout: none; 
+}
+
+/* .aboutme .bg-container .sky-bg-img,
+.gallery .bg-container .sky-bg-img,
+.skill .bg-container .sky-bg-img {
+  width: 1920px;
+  height: auto;
+}
+
+.gallery .bg-container .sky-bg-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+
+.skill .bg-container{
+  min-height: unset;
+  height: 932px;
+}
+.skill .bg-container .sky-bg-img {
+  width: 1920px;
+  height: 100%;
+}
+.skill .magic-circle-container {
+  top:-100px;
+}
+
+
+
+@media screen and (max-width: 1366px){
+  .gallery .bg-container{
+    min-height: 1000px;
+  }
+  
+  .gallery .content-container .mirror, .gallery .content-container .mask{
+    height: calc(100% - 38%);
+  }
+  .swiper-box{
+    transform: translateY(0rem);
+  }
 }
