@@ -1,19 +1,13 @@
 
 @media screen and (max-width: 1200px) {
-    .aboutme .content-container {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
+    .aboutme .bg-container .overlay.cloud-0{
+        left: -600px;
+        transform: rotateY(0deg) scale(.8);
     }
-
-    /* .aboutme .bg-container .overlay:nth-child(2) {
-      transform: scale(0.88) translate(-100px, 0px);
-    } */
-    
-    .aboutme .content-container .img-overlay img {
-        transform: scale(0.88);
-        opacity: 1;
-    }
-
+    .aboutme .bg-container .overlay.cloud-1 svg{
+        width: 1920px;
+        height: auto;
+      }
     .zhulong-container .img-overlay-one {
         left: -100px;
     }
@@ -59,7 +53,9 @@
 }
 
 @media screen and (max-width: 1048px) {
-    
+    .aboutme .bg-container .overlay.cloud-1{
+        left: -600px;
+    }
     .aboutme .content-container {
         padding-left: 0rem;
         padding-right: 0rem;
@@ -93,6 +89,9 @@
 }
 
 @media screen and (max-width: 960px) {
+    .aboutme .bg-container .overlay.cloud-1{
+        left: -900px;
+    }
     .aboutme .content-container {
         grid-template-columns: 55% 45%;
         grid-gap: 1rem;
@@ -143,6 +142,9 @@
 
 
 @media screen and (max-width: 776px) {
+    .aboutme .bg-container .overlay.cloud-1{
+        left: -400px;
+    }
     .content-container .title img {
         top: -2.4rem;
         left: -0.8rem;
@@ -472,7 +474,6 @@
 }
 
 @media screen and (max-width: 640px) {
-
     .aboutme .content-container,
     .contact .content-container {
         transform: scale(.88);
@@ -842,15 +843,7 @@
 }
 
 @media screen and (min-width: 1370px) {
-    .aboutme .bg-container .overlay {
-        width: 100%;
-    }
-    .aboutme .bg-container .overlay:nth-child(5){
-        opacity: 1;
-      }
-      .aboutme .bg-container .overlay:nth-child(6){
-        opacity: 1;
-      }
+    
     @media screen and (max-height: 912px) {
         .aboutme-cloud-front {
             bottom: -7rem;

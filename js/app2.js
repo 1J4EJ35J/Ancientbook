@@ -18,45 +18,7 @@ document.addEventListener('DOMContentLoaded', () =>
   }));
 
 /***********HEADER*************/
-//media min-width900
-let menuBtn900 = document.querySelector('.media-w900 .menubutton');
-let nav900 = document.querySelector('.media-w900 .nav');
-let navClose900 = document.querySelector('.media-w900 .nav-closebtn');
 
-menuBtn900.addEventListener('click', toggleNav900)
-function toggleNav900() {
-  nav900.classList.toggle('nav-active')
-}
-navClose900.addEventListener('click', function () {
-  toggleNav900()
-})
-
-let navOption900 = document.querySelectorAll('.media-w900 .nav-option')
-navOption900.forEach(function (optionButton900) {
-  optionButton900.addEventListener('click', function () {
-    toggleNav900()
-  })
-})
-
-//media max-width899
-let menuBtn899 = document.querySelector('.media-w899 .menubutton');
-let nav899 = document.querySelector('.media-w899 .nav');
-let navClose899 = document.querySelector('.media-w899 .nav-closebtn');
-
-menuBtn899.addEventListener('click', toggleNav899)
-function toggleNav899() {
-  nav899.classList.toggle('nav-active')
-}
-navClose899.addEventListener('click', function () {
-  toggleNav899()
-})
-
-let navOption899 = document.querySelectorAll('.media-w899 .nav-option');
-navOption899.forEach(function (optionButton899) {
-  optionButton899.addEventListener('click', function () {
-    toggleNav899()
-  })
-})
 
 /***********HOME*************/
 let seaTopback = document.getElementById('sea-topback');
@@ -198,7 +160,7 @@ window.addEventListener('scroll', function () {
     seaBottom.style.top = `${value * -.13}px`;
     seaBottom.style.opacity = `${1}`;
     seaBottom.style.transition = `${.4}s`;
-    cloudBottom.style.top = `${-320 + value * -.2}px`;
+    cloudBottom.style.top = `${-260 + value * -.2}px`;
     cloudBottom.style.opacity = `${.86}`;
     cloudBottom.style.transition = `${.3}s`;
     star01.style.top = `${-240 + value * -.3}px`;
@@ -210,6 +172,7 @@ window.addEventListener('scroll', function () {
   }if (value < 40) {
     seaBottom.style.top = `${0}px`;
     cloudBottom.style.top = `${-20}rem`;
+    cloudBottom.style.opacity = `${0}`;
     star01.style.top = `${-15}rem`;
     star01.style.transform = `scale(${1})`;
   }if (value < 700) {
@@ -221,7 +184,7 @@ window.addEventListener('scroll', function () {
     seaBottom.style.top = `${0}px`;
     seaBottom.style.opacity = `${0}`;
     seaBottom.style.transition = `${0}s`;
-    cloudBottom.style.top = `${-20}rem`;
+    cloudBottom.style.top = `${-16}rem`;
     cloudBottom.style.opacity = `${0}`;
     cloudBottom.style.transition = `${0}s`;
     star01.style.top = `${-15}rem`;
