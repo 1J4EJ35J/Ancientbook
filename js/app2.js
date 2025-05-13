@@ -160,14 +160,14 @@ window.addEventListener('scroll', function () {
     seaBottom.style.top = `${value * -.13}px`;
     seaBottom.style.opacity = `${1}`;
     seaBottom.style.transition = `${.4}s`;
-    cloudBottom.style.top = `${-260 + value * -.2}px`;
+    cloudBottom.style.top = `${-260 + value * -.3}px`;
     cloudBottom.style.opacity = `${.86}`;
     cloudBottom.style.transition = `${.3}s`;
     star01.style.top = `${-240 + value * -.3}px`;
     star01.style.opacity = `${1}`;
     star01.style.transition = `${1.4}s`;
     star01.style.transform = `scale(${1 + value * .0003})`;
-    star02.style.opacity = `${0 + value * .002}`;
+    star02.style.opacity = `${0 + value * .8}`;
     star02.style.transition = `${3.5}s`;
   }if (value < 40) {
     seaBottom.style.top = `${0}px`;
@@ -184,14 +184,15 @@ window.addEventListener('scroll', function () {
     seaBottom.style.top = `${0}px`;
     seaBottom.style.opacity = `${0}`;
     seaBottom.style.transition = `${0}s`;
-    cloudBottom.style.top = `${-16}rem`;
+    cloudBottom.style.top = `${-17}rem`;
     cloudBottom.style.opacity = `${0}`;
     cloudBottom.style.transition = `${0}s`;
     star01.style.top = `${-15}rem`;
-    star01.style.opacity = `${0}`;
+    star01.style.opacity = `${.4}`;
     star01.style.transition = `${0}s`;
     star01.style.transform = `scale(${1})`;
     star02.style.opacity = `${1}`;
+  }if (value > 400){
   }
 
   /*if(window.matchMedia('(min-width:1366px)').matches){

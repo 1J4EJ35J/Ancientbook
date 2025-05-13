@@ -111,6 +111,10 @@
   transition: all ease .3s;
   position: relative;
 }
+.footer-container .footer-body .right-side .zone.allomyrina .container .list .allomyrina-item .allomyrina.img-container img{
+  height: 100%;
+  width: auto;
+}
 .footer-container .footer-body .right-side .allomyrina-item{
   position: relative;
   width: 320px;

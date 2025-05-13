@@ -1765,6 +1765,8 @@ ui project part
 
 .cb-splitshow-container.skm {
   position: relative;
+  padding-bottom: 120px;
+  padding-top: 40px;
 }
 
 .ui-items-box {
@@ -2062,6 +2064,10 @@ ui project part
 }
 
 @media (max-width: 720px) {
+  .cb-splitshow-container.skm {
+    padding-bottom: 80px;
+    padding-top: 25px;
+  }
   .ui-item {
     margin: .5rem;
   }

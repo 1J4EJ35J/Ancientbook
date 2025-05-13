@@ -905,7 +905,7 @@ GALLERY
 }
 
 .zhulong-container .img-overlay-two img {
-  animation: rotate 50s linear infinite;
+  animation: rotate 120s linear infinite;
 }
 
 @keyframes rotate {
@@ -2133,6 +2133,12 @@ Media Device in Response.css
   left: 0;
 } */
 
+.aboutme .bg-container .sky-bg-img.bg-elements{
+  top: auto;
+  bottom: 0;
+}
+
+
 .cd-zone{
   position: relative;
   height: fit-content;
@@ -2142,6 +2148,7 @@ Media Device in Response.css
   position: absolute;
   top: 0;
   left: 0;
+  object-fit: cover;
 }
 .skill .bg-container{
   min-height: unset;
@@ -2191,16 +2198,4 @@ Media Device in Response.css
 .skill .cloud-2{
   top: 0;
   left: 600px;
-}
-@media screen and (max-width: 1366px){
-  .gallery .bg-container{
-    min-height: 1000px;
-  }
-  
-  .gallery .content-container .mirror, .gallery .content-container .mask{
-    height: calc(100% - 38%);
-  }
-  .swiper-box{
-    transform: translateY(0rem);
-  }
 }

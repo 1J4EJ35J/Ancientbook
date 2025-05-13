@@ -346,7 +346,7 @@ secreenshot and video section
         padding-bottom: 56.25%;
     }
     .cb-container.-ml, .cb-rcfeed-container.-ml, .cb-screenshot-container {
-        padding: 0 90px;
+        padding: 0 60px;
     }
 }
 @media(min-width:1200px){

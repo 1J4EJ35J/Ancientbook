@@ -26,11 +26,22 @@
     pointer-events: auto;
   }
   
-  body:has(.copyright-moreinfo.active) {
-    overflow: none;
+  body:has(.copyright-moreinfo.active){
+    /* overflow: hidden;
     height:100vh;
     max-height: 100vh;
-    min-height: 100vh;
+    min-height: 100vh; */
+    scrollbar-width: 0px; /* 適用於 Firefox */
+    scrollbar-color: transparent;
+    pointer-events: none;
+    
+  }
+  body:has(.copyright-moreinfo.active)::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  body:has(.copyright-moreinfo.active)::-webkit-scrollbar-track {
+    background: transparent;
   }
   
   .moreinfo-box .moreinfo-closebtn {

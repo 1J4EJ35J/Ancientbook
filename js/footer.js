@@ -44,7 +44,7 @@ customElements.define('footer-zone', class extends HTMLElement {
                                         <a class="allomyrina-item" href="">
                                             <div class="shadow-box03"></div>
                                             <div class="allomyrina img-container">
-                                                <img src="./img/footer/p_beetle.svg" clsss="img-control">
+                                                <img src="./img/footer/p_beetle.webp" class="img-control">
                                             </div>
                                         </a>
                                         <div class="item ">
