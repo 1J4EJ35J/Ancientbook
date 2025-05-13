@@ -23,8 +23,8 @@ customElements.define('footer-zone', class extends HTMLElement {
                                 <div class="container">
                                     <h4 class="title">其他計畫</h4>
                                     <div class="list">
-                                        <a class="item text" href="">電動車系統APP</a>
-                                        <a class="item text" href="">訂購機票APP</a>
+                                        <a class="item text" href="P_ui">電動車系統APP</a>
+                                        <a class="item text" href="P_ui">訂購機票APP</a>
                                     </div>
                                 </div>
                                 <div class="container">
