@@ -112,8 +112,13 @@
   position: relative;
 }
 .footer-container .footer-body .right-side .zone.allomyrina .container .list .allomyrina-item .allomyrina.img-container img{
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 103%;
+  transition: all .3s ease;
+}
+.footer-container .footer-body .right-side .zone.allomyrina .container .list .allomyrina-item:hover .allomyrina.img-container img{
+  height: auto;
+  width: 100%;
 }
 .footer-container .footer-body .right-side .allomyrina-item{
   position: relative;
@@ -142,6 +147,7 @@
   width: 100%;
   box-shadow: 0 0 10px rgba(255, 246, 120, .7);
 }
+
 .footer-container .footer-body .right-side .zone.allomyrina .container .list  .allomyrina.img-container:hover {
   opacity: 1;
 }
