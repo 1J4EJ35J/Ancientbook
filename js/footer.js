@@ -5,9 +5,9 @@ customElements.define('footer-zone', class extends HTMLElement {
         <footer class="footer-zone">
             <section class="cb-footer-content">
                 <div class="footer-container">
-                    <div class="logo img-container">
+                    <a class="logo img-container" href="https://ancientbook.bokupig.design/">
                         <img src="./img/footer/logo_a_2.svg" class="img-control">
-                    </div>
+                    </a>
                     
                     <div class="footer-body">
                         <div class="left-side">
@@ -15,9 +15,9 @@ customElements.define('footer-zone', class extends HTMLElement {
                                 <div class="container">
                                     <h4 class="title">作品集</h4>
                                     <div class="list">
-                                        <a class="item text" href="">醫美後台系統</a>
-                                        <a class="item text" href="">弱勢公益平台</a>
-                                        <a class="item text" href="">財物庫存系統</a>
+                                        <a class="item text" href="">醫療整合後台</a>
+                                        <a class="item text" href="">社會弱勢公益平台</a>
+                                        <a class="item text" href="">健康有氧管理</a>
                                     </div>
                                 </div>
                                 <div class="container">
