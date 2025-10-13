@@ -25,6 +25,7 @@
   /*****Font weight *****/
   --font-medium: 300;
   --font-bold: 500;
+  
   --font-eng-bold: 700;
 
   /*****color *****/
@@ -40,12 +41,18 @@ h4,
   display: inline-block;
   font-family: var(--body-font);
   font-weight: var(--font-medium);
-  transform: var(--font-transform);
+  
   font-size: var(--title-font-size);
   color: var(--color-text);
   letter-spacing: -0.009rem;
   line-height: 120%;
 }
+
+h4,
+.cb-description-header p{
+  transform: var(--font-transform);
+}
+
 .cb-description-header p{
   font-size: var(--normal-font-size);
 }

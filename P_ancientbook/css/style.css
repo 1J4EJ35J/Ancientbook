@@ -385,27 +385,27 @@ brief section
     padding: 0;
     margin: 0;
 }
-.cb-brief-text p{
+.cb-brief-text-set p{
   line-height: var(--line-height-360);
 }
-.cb-brief-text p:nth-child(1),
-.cb-brief-text p:nth-child(3){
+.cb-brief-text-set p:nth-child(1),
+.cb-brief-text-set p:nth-child(3){
     color: var(--color-point);
     margin-bottom: 1rem;
     font-size: var(--title-font-size);
     
 }
 
-.cb-brief-text p:nth-child(2){
+.cb-brief-text-set p:nth-child(2){
     margin-bottom: 2rem;
 }
 
-.cb-brief-text p:nth-child(4){    
+.cb-brief-text-set p:nth-child(4){    
     margin-bottom: 4rem;
     
 }
 
-.cb-brief-text p .js-text{
+.cb-brief-text-set p .js-text{
     display: block;
     text-align: center;
     padding: .8rem 0;
@@ -519,7 +519,7 @@ brief section
     border: solid 1px var(--color-text);
     
 } */
-.cb-brief-text {
+.cb-brief-text-set {
     line-height:var(--line-height-360);
 }
 @media(min-width:768px){
@@ -528,7 +528,7 @@ brief section
         gap: 20px;
     }
     
-    .cb-brief-text {
+    .cb-brief-text-set {
         font-size: var(--normal-font-size);
         line-height:var(--line-height-768);
         letter-spacing: .08rem;
@@ -542,7 +542,7 @@ brief section
 }
 
 @media(min-width:1200px){
-    .cb-brief-text {
+    .cb-brief-text-set {
         max-width: 92%;
         font-size: var(--normal-font-size);
         line-height: var(--line-height-1200);

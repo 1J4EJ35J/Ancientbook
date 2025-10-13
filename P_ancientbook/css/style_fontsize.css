@@ -14,7 +14,8 @@
   --title-font-size: 1.5rem;
   --normal-font-size: 1.25rem;
   --scroll-font-size: 1.05rem;
-  --font-transform: scaleY(calc(100% * 1.08));
+  --font-transform: scaleY(calc(100% * 1.075));
+  --font-transform-0: scaleY(1);
   --letter-space: 0.08rem;
   --line-height-1200: 130%;
   --line-height-768: 125%;

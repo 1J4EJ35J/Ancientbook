@@ -37,11 +37,11 @@
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
-  --mb-1: 1rem;
-  --mb-1-25: 1.25rem;
-  --mb-1-5: 1.5rem;
-  --mb-2: 2rem;
-  --mb-2-5: 2.5rem;
+  --mb-10: 1rem;
+  --mb-10-25: 1.25rem;
+  --mb-10-5: 1.5rem;
+  --mb-20: 2rem;
+  --mb-20-5: 2.5rem;
 
   /*****z index *****/
   --z-tooltip: 10;
@@ -168,13 +168,13 @@ input {
   color: var(--title-color);
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-20);
 }
 
 .container {
   max-width: 968px;
-  margin-left: var(--mb-1);
-  margin-right: var(--mb-1);
+  margin-left: var(--mb-10);
+  margin-right: var(--mb-10);
 }
 
 .grid {
@@ -329,7 +329,7 @@ input {
 .home__data-title {
   font-size: var(--biggest-font-size);
   font-weight: var(--font-medium);
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: var(--mb-20-5);
 }
 
 .home__social {
@@ -417,7 +417,7 @@ input {
 }
 
 .about__description {
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-20);
 }
 
 .about__img {
@@ -573,7 +573,7 @@ input {
 
 .video__description {
   text-align: center;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: var(--mb-20-5);
 }
 
 .video__content {
@@ -658,7 +658,7 @@ input {
 
 .place__subtitle {
   font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1-25);
+  margin-bottom: var(--mb-10-25);
 }
 
 .place__subtitle,
@@ -702,7 +702,7 @@ input {
 
 .subscribe__description {
   text-align: center;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: var(--mb-20-5);
 }
 
 .subscribe__form {
@@ -761,17 +761,17 @@ input {
 }
 
 .footer__description {
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-20);
 }
 
 .footer__social {
   font-size: 1.25rem;
   color: var(--title-color);
-  margin-right: var(--mb-1-25);
+  margin-right: var(--mb-10-25);
 }
 
 .footer__subtitle {
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-10);
 }
 
 .footer__item {
@@ -998,10 +998,10 @@ input {
     text-align: initial;
   }
   .about__title {
-    margin-bottom: var(--mb-1-5);
+    margin-bottom: var(--mb-10-5);
   }
   .about__description {
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-20);
   }
 
   .discover__container {
@@ -1090,7 +1090,7 @@ input {
   }
 
   .experience__content {
-    margin: var(--mb-1) 0;
+    margin: var(--mb-10) 0;
     column-gap: 3.5rem;
   }
   .experience__overlay:nth-child(1) {
