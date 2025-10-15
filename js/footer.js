@@ -16,10 +16,11 @@ customElements.define('footer-zone', class extends HTMLElement {
                                     <h4 class="title">作品集</h4>
                                     <div class="list">
                                         <a class="item text" href="">醫療整合後台</a>
-                                        <a class="item text" href="">社會弱勢公益平台</a>
-                                        <a class="item text" href="">健康有氧管理</a>
+                                        <a class="item text" href="">社會公益平台</a>
+                                        <a class="item text" href="">健康運動後台</a>
                                     </div>
                                 </div>
+                                <!--
                                 <div class="container">
                                     <h4 class="title">其他計畫</h4>
                                     <div class="list">
@@ -27,11 +28,24 @@ customElements.define('footer-zone', class extends HTMLElement {
                                         <a class="item text" href="P_ui">訂購機票APP</a>
                                     </div>
                                 </div>
+                                -->
                                 <div class="container">
                                     <h4 class="title">與我聯繫</h4>
                                     <div class="list">
                                         <a class="item text" href="">信件傳遞</a>
                                         <a class="item text" href="">留言給我</a>
+                                    </div>
+                                </div>
+                                <div class="container  allomyrina-info">
+                                    <h4 class="title">羽衣悔換</h4>
+                                    <div class="list">
+                                        <p class="item text" >
+                                        簡約風格作品集，
+                                        <br>如果對北經殘卷風
+                                        <br>格過敏，請透過鍬
+                                        <br>形蟲圖像連結進入
+                                        <br>參閱。
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -47,10 +61,12 @@ customElements.define('footer-zone', class extends HTMLElement {
                                                 <img src="./img/footer/p_beetle.webp" class="img-control">
                                             </div>
                                         </a>
+                                        <!--
                                         <div class="item ">
                                             <h4 class="title">羽衣悔換</h4>
                                             <p class="text"> Neumorphic style 作品集，如對北經殘卷風格過敏，請由圖像連結進入參閱。 </p>
                                         </div>
+                                        -->
                                     </div>
                                 </div>
                             </div>

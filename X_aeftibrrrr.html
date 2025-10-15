@@ -17,10 +17,12 @@
     <link rel="stylesheet" href="./extra/style_footer.css">
     <link rel="stylesheet" href="./extra/style-copyrights.css">
     <!--font awesome cdn link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-ZYgR+1zj3aSmwr1jsLtJX4BAmUoJcYjExMzv9vOKTib9cfgyAFN/N5HzWkGv3nA4Xz1RSH+6LZmDCfmUz7T6XQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/fontawsome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/fontawsome/css/solid.min.css">
+    <link rel="stylesheet" href="./css/fontawsome/css/regular.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -103,7 +105,7 @@
                     <div class="cb-brief-grid">
                         <div class="cb-brief-grid-col -left">
                             <div class="cb-brief-header">
-                                <h2>內部專案</h2>
+                                <h2 class="cb-brief-title">內部專案</h2>
                             </div>
                         </div>
                         <div class="cb-brief-grid-col -right">
@@ -188,10 +190,12 @@
         </section>
         <section class="cb-description-content -mb -ct">
             <div class="cb-description-container">
-                <div class="cb-description-header ">
+                <div class="cb-description-header">
+
                     <h2 class="-margin">
                         配合專案需要<br>
-                        滾動調整自己的角色</h2>
+                        滾動調整自己的角色
+                    </h2>
                 </div>
                 <div class="cb-description-box">
                     <p>由於公司的決策限制，此專案時程僅有35天，同時有其他專案必須進行。在與後端工程師討論後，我調整自己的角色與工作流程。跳脫制式的設計流程，直接進入MVC
@@ -228,8 +232,11 @@
 
         <section class="cb-description-content -mb ">
             <div class="cb-description-container">
-                <div class="cb-description-header ">
-                    <h2 class="-margin b-text-1">
+                <div class="cb-description-header box">
+                    <p class="s-title">
+                        Section 1
+                    </p>
+                    <h2 class="-margin b-section-1">
                         跳脫制式開發流程
                         <br>
                         屬於我自己分支
@@ -257,17 +264,494 @@
             <div class="cb-screenshot-container">
                 <div class="cb-screenshot-preview -iwh">
                     <video loop autoplay muted playsinline preload="auto">
-                <source src="./X_aeftibrrrr/video/webm/R-02 nq.webm" type="video/webm">
-            </video>
+                        <source src="./X_aeftibrrrr/video/webm/R-02 nq.webm" type="video/webm">
+                    </video>
                 </div>
             </div>
         </section>
+        <section class="cb-description-zone pb-75 pt-75">
+            <div class="cb-description-container">
+                <div class="cb-description-box">
+                    <div class="cb-description-title-box">
+                        <i class="fa-solid fa-up-long icon-control"></i>
+                        <p class="cb-description-title">Component Library</p>
+                    </div>
+
+                    <p>在wwwroot內直接建立元件庫，制式化各種元件的基礎樣式。特殊細節或不同需求在各頁scss中另外編寫。
+                    </p>
+                    <p>
+                        此處以Popup為例，建立Popup window 基礎視覺風格與完整RWD。下面透過影片展示，說明Component 套用與協作流程。
+                    </p>
+                    <!-- <div class="cb-description-list-zone">
+                        <div class="cb-description-list-group">
+                            <ul class="cb-description-list">
+                                <li class="item">
+                                    <p class="eng-text alphabetical-order">1.</p>
+                                    <p>跳脫制式設計流程，透過Git 與後端工程師同步開發。</p>
+                                </li>
+                                <li class="item">
+                                    <p class="eng-text alphabetical-order">2.</p>
+                                    <p>既有系統的UI邏輯問題，工程師搬運功能後排版紊亂，一併統整與優化展示。</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="cb-screenshot">
+            <div class="cb-screenshot-container">
+                <div class="cb-screenshot-preview -iwh">
+                    <img src="./X_aeftibrrrr/img/png/br-04.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="cb-description-zone pb-75 pt-75">
+            <div class="cb-description-container">
+                <div class="cb-description-box">
+                    <div class="cb-description-title-box">
+                        <i class="fa-solid fa-up-long icon-control"></i>
+                        <p class="cb-description-title">搬運後的UI問題</p>
+                    </div>
+
+                    <p>工程師搬運其他系統Popup window ，出現視覺風格不統一與圖文排版問題。Popup window的關閉按鈕在原系統中，也有畫面尺寸改變導致按鈕超出螢幕畫面，無法關閉視窗的情況。
+                    </p>
+                    <!-- <div class="cb-description-list-zone">
+                        <div class="cb-description-list-group">
+                            <ul class="cb-description-list">
+                                <li class="item">
+                                    <p class="eng-text alphabetical-order">1.</p>
+                                    <p>跳脫制式設計流程，透過Git 與後端工程師同步開發。</p>
+                                </li>
+                                <li class="item">
+                                    <p class="eng-text alphabetical-order">2.</p>
+                                    <p>既有系統的UI邏輯問題，工程師搬運功能後排版紊亂，一併統整與優化展示。</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="cb-screenshot">
+            <div class="cb-screenshot-container">
+                <div class="cb-screenshot-preview -iwh">
+                    <img src="./X_aeftibrrrr/img/png/br-05.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="cb-screenshot">
+            <div class="cb-screenshot-container">
+                <div class="cb-screenshot-preview -iwh">
+                    <video loop autoplay muted playsinline preload="auto">
+                        <source src="./X_aeftibrrrr/video/webm/R-03 nq.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+        </section>
+        <section class="cb-description-zone pt-75">
+            <div class="cb-description-container">
+                <div class="cb-description-box">
+                    <div class="cb-description-title-box">
+                        <i class="fa-solid fa-up-long icon-control"></i>
+                        <p class="cb-description-title">上圖</p>
+                    </div>
+                    <p>內容的布局樣式，寫在廣告管理頁的SCSS中，檔案命名與Razor View相同，各頁面引用同名的CSS，方便後續的維護。如果工程師有臨時需要，也可快速縮小範圍查找，避免大海撈針。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="cb-description-zone pb-75 pt-20">
+            <div class="cb-description-container">
+                <div class="cb-description-box">
+                    <div class="cb-description-title-box">
+                        <i class="fa-solid fa-up-long icon-control"></i>
+                        <p class="cb-description-title">影片</p>
+                    </div>
+                    <p>接修改結構，套用class，因工程師將Popup 內容另外做成 PartialView，而主標題與關閉按鈕等共用功能在主頁面裡，所以將部分Code 移到主功能頁cshtml 內。
+                    </p>
+                    <div class="cb-description-list-zone">
+                        <div class="cb-description-list-group">
+                            <ul class="cb-description-list">
+                                <li class="item">
+                                    <p>在MVC架構中，有許多PartialView，需要在不同檔案之間調整&lt;tag&gt;與架構，以確保Class 套用正確。</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cb-screenshot">
+            <div class="cb-screenshot-container">
+                <div class="cb-screenshot-preview -iwh">
+                    <video loop autoplay muted playsinline preload="auto">
+                        <source src="./X_aeftibrrrr/video/webm/R-04.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+        </section>
+        <section class="cb-description-zone pb-75 pt-75">
+            <div class="cb-description-container">
+                <div class="cb-description-box">
+                    <div class="cb-description-title-box">
+                        <i class="fa-solid fa-up-long icon-control"></i>
+                        <p class="cb-description-title">透過Git 與工程師合作</p>
+                    </div>
+                    <p>因其他修改混在同一次提交，而當天正好要進行測試機與正式機同步，工程師會來不及修正Popup window 關閉功能。因此我使用 cherry-pick 將廣告管理 Popup window
+                        的提交單獨挑出，推送到遠端 develop；其餘修改則保留在遠端 feat/fourth，供工程師後續串接。
+                    </p>
+                    <div class="cb-description-list-zone">
+                        <div class="cb-description-list-group">
+                            <ul class="cb-description-list">
+                                <li class="item">
+                                    <p>推送完成後，知會工程師確認需要重新串接或修正功能。
+                                        工程師git pull之後，可以透過畫面直觀了解損壞的功能進行修正，或是透過Git快速比對，不需要反覆擷取、合併切版程式碼。</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cb-screenshot">
+            <div class="cb-screenshot-container">
+                <div class="cb-screenshot-preview -iwh beforetext">
+                    <img src="./X_aeftibrrrr/img/png/br-06.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="cb-screenshot">
+            <div class="cb-screenshot-container">
+                <div class="cb-screenshot-preview -iwh aftertext">
+                    <video loop autoplay muted playsinline preload="auto">
+                        <source src="./X_aeftibrrrr/video/webm/R-05 nq.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+        </section>
+        <section class="cb-description-zone pt-75">
+            <div class="cb-description-container">
+                <div class="cb-description-box">
+                    <div class="cb-description-title-box">
+                        <i class="fa-solid fa-up-long icon-control"></i>
+                        <p class="cb-description-title">確認測試機與本地一致</p>
+                    </div>
+                    <p>在工程師更新至測試機後，確認操作流程與UI視覺細節，確保沒有遺漏或錯誤。
+                    </p>
+                    <div class="cb-description-list-zone">
+                        <div class="cb-description-list-group">
+                            <ul class="cb-description-list">
+                                <li class="item">
+                                    <p class="eng-text alphabetical-order">1.</p>
+                                    <p>
+                                        比起單純製作設計稿和切版，我真正參與設計落地的過程，實際的解決問題。
+                                    </p>
+                                </li>
+                                <li class="item">
+                                    <p class="eng-text alphabetical-order">2.</p>
+                                    <p>
+                                        透過Git與工程師協作，為團隊效率大幅提升。
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="cb-description-content -mb">
+            <div class="cb-description-container">
+                <div class="cb-description-header box">
+                    <p class="s-title">Section 2</p>
+                    <h2 class="-margin b-section-2">
+                        調整布局RWD
+                        <br>
+                        基礎功能邏輯統一
+                    </h2>
+                </div>
+                <div class="cb-description-box">
+                    <p>
+                        解決既有系統的UI擠壓問題，拓展新的Sidebar階層。
+                        邏輯性歸納篩選功能，制定規則，標準化功能性設計視覺。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="cb-screenshot-swiper-zone">
+            <div class="cb-screenshot-swiper-container swiper Swiper_01">
+                <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
+                    <div class="swiper-slide beforetext">
+                        <img src="./X_aeftibrrrr/img/png/br-08.png" alt="">
+                    </div>
+                    <div class="swiper-slide beforetext">
+                        <img src="./X_aeftibrrrr/img/png/br-07.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="cb-screenshot-swiper-zone">
+            <div class="cb-screenshot-swiper-container swiper Swiper_01">
+                <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
+                    <div class="swiper-slide aftertext">
+                        <video loop autoplay muted playsinline preload="auto">
+                            <source src="./X_aeftibrrrr/video/webm/R-06 nq.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="swiper-slide aftertext">
+                        <img src="./X_aeftibrrrr/img/png/br-09.png" alt="">
+                    </div>
+                    <div class="swiper-slide aftertext">
+                        <img src="./X_aeftibrrrr/img/png/br-10.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="cb-description-zone pt-75">
+            <div class="cb-description-container">
+                <div class="cb-description-box">
+                    <div class="cb-description-title-box">
+                        <i class="fa-solid fa-up-long icon-control"></i>
+                        <p class="cb-description-title">問題(上圖)</p>
+                    </div>
+                    <p>在既有的後台中，Sidebar與右側主區塊相互擠壓，導致Table 變形。Sidebar標題文字換行後，被容器壓迫，難以閱讀。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="cb-description-zone pb-75 pt-20">
+            <div class="cb-description-container">
+                <div class="cb-description-box">
+                    <div class="cb-description-title-box">
+                        <i class="fa-solid fa-up-long icon-control"></i>
+                        <p class="cb-description-title">解決(影片)</p>
+                    </div>
+                    <p>人類肉眼與大腦，不可能一次接收畫面上的全部訊息，因此使用水平Scrollbar，優先顯示重要資訊，次要訊息或操作按鈕放置於右側，於滾動卷軸後顯示。
+                        Sidebar
+                        為導航功能按鈕，文字需清晰方便閱讀為優先考量。因此固定Sidebar寬度，給予充裕空間。使用階層化的方式，展開各功能標題下的功能按鈕，以可拓展第三階層方式設計，以利後續平台的擴充。
+                    </p>
+                    <p>
+                        配合RWD設定Breakpoint : <br>
+                        991px →Sidebar position: fixed;<br>
+                        767px →table 改為卡片型態
+                    </p>
+                    <div class="cb-description-list-zone">
+                        <div class="cb-description-list-group">
+                            <ul class="cb-description-list">
+                                <li class="item">
+                                    <p>在MVC架構中，有許多PartialView，需要在不同檔案之間調整&lt;tag&gt;與架構，以確保Class 套用正確。</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cb-screenshot">
+            <div class="cb-screenshot-container">
+                <div class="cb-screenshot-preview -iwh beforetext">
+                    <img src="./X_aeftibrrrr/img/png/br-11.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="cb-screenshot">
+            <div class="cb-screenshot-container">
+                <div class="cb-screenshot-preview -iwh aftertext">
+                    <video loop autoplay muted playsinline preload="auto">
+                        <source src="./X_aeftibrrrr/video/webm/R-07 nq.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+        </section>
+        <section class="cb-description-zone pt-75">
+            <div class="cb-description-container">
+                <div class="cb-description-box">
+                    <div class="cb-description-title-box">
+                        <i class="fa-solid fa-up-long icon-control"></i>
+                        <p class="cb-description-title">問題(上圖)</p>
+                    </div>
+                    <p>篩選條件歸納邏輯不同，部分頁面集中、部分被散落在外。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="cb-description-zone pt-20">
+            <div class="cb-description-container">
+                <div class="cb-description-box">
+                    <div class="cb-description-title-box">
+                        <i class="fa-solid fa-up-long icon-control"></i>
+                        <p class="cb-description-title">解決(影片)</p>
+                    </div>
+                    <div class="p-list-zone">
+                        <p>
+                            我設計了將篩選條件統一收納進『篩選側欄』方案，觸發按鈕則固定放在 _Layout.cshtml
+                            的&lt;header&gt;。由於不確定單一按鈕是否能對應不同頁面的篩選邏輯，我先準備了兩個方案與工程師討論：
+                        </p>
+                        <ul class="p-list-container">
+                            <li class="item">
+                                <p class="eng-text alphabetical-order">a.</p>
+                                <p>使用單一按鈕，依頁面內容切換不同的篩選側欄</p>
+                            </li>
+                            <li class="item">
+                                <p class="eng-text alphabetical-order">b.</p>
+                                <p>每一頁各自放置一個篩選按鈕與對應的側欄</p>
+                            </li>
+                        </ul>
+                        <p>
+                            最後討論決定採用 a，但實作邏輯是共用同一個篩選側欄，由各頁的 View 提供自己的篩選條件。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cb-description-content -mb ">
+            <div class="cb-description-container">
+                <div class="cb-description-header box">
+                    <p class="s-title">
+                        Section 3
+                    </p>
+                    <h2 class="-margin b-section-1">
+                        第三方套件樣式修改
+                        <br>
+                        視覺風格標準化
+                    </h2>
+                </div>
+                <div class="cb-description-box">
+                    <p>規則化統整&lt;select&gt;與第三方套件樣式。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="cb-screenshot">
+            <div class="cb-screenshot-container">
+                <div class="cb-screenshot-preview -iwh beforetext">
+                    <img src="./X_aeftibrrrr/img/png/br-12.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="cb-screenshot">
+            <div class="cb-screenshot-container">
+                <div class="cb-screenshot-preview -iwh aftertext">
+                    <video loop autoplay muted playsinline preload="auto">
+                        <source src="./X_aeftibrrrr/video/webm/R-08 nq.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+        </section>
+        <section class="cb-description-zone pt-75">
+            <div class="cb-description-container">
+                <div class="cb-description-box">
+                    <div class="cb-description-title-box">
+                        <i class="fa-solid fa-up-long icon-control"></i>
+                        <p class="cb-description-title">問題(上圖)</p>
+                    </div>
+                    <p>在原系統中，&lt;select&gt;未統一樣式。
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="cb-description-zone pb-75 pt-20">
+            <div class="cb-description-container">
+                <div class="cb-description-box">
+                    <div class="cb-description-title-box">
+                        <i class="fa-solid fa-up-long icon-control"></i>
+                        <p class="cb-description-title">解決(影片)</p>
+                    </div>
+                    <p>
+                        &lt;select&gt;元件受系統影響，難以客製化，我與工程師討論後決定進行大規模改造。奠基於團隊已建立良好的 Git 協作流程，我可以安全地在 cshtml 中進行結構修改並套用 CSS
+                        component，工程師則在此基礎上負責資料串接與 JS 實作。
+                    </p>
+                    <div class="cb-description-list-zone">
+                        <div class="cb-description-list-group">
+                            <ul class="cb-description-list">
+                                <li class="item">
+                                    <p>
+                                        基於團隊的信任與分工，讓我們能順利完成一般工程師不太願意嘗試的改動。
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cb-screenshot-swiper-zone">
+            <div class="cb-screenshot-swiper-container swiper Swiper_01">
+                <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
+                    <div class="swiper-slide beforetext">
+                        <img src="./X_aeftibrrrr/img/png/br-13.png" alt="">
+                    </div>
+                    <div class="swiper-slide beforetext">
+                        <img src="./X_aeftibrrrr/img/png/br-14.png" alt="">
+                    </div>
+                    <div class="swiper-slide beforetext">
+                        <img src="./X_aeftibrrrr/img/png/br-15.png" alt="">
+                    </div>
+                    <div class="swiper-slide beforetext">
+                        <img src="./X_aeftibrrrr/img/png/br-16.png" alt="">
+                    </div>
+                    <div class="swiper-slide beforetext">
+                        <img src="./X_aeftibrrrr/img/png/br-17.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="cb-screenshot-swiper-zone">
+            <div class="cb-screenshot-swiper-container swiper Swiper_01">
+                <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
+                    <div class="swiper-slide aftertext">
+                        <img src="./X_aeftibrrrr/img/png/br-18.png" alt="">
+                    </div>
+                    <div class="swiper-slide aftertext">
+                        <video loop autoplay muted playsinline preload="auto">
+                            <source src="./X_aeftibrrrr/video/webm/R-09 nq.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="swiper-slide aftertext">
+                        <img src="./X_aeftibrrrr/img/png/br-19.png" alt="">
+                    </div>
+                    <div class="swiper-slide aftertext">
+                        <video loop autoplay muted playsinline preload="auto">
+                            <source src="./X_aeftibrrrr/video/webm/R-8 nq.webm" type="video/webm">
+                        </video>
+                    </div>
+                    <div class="swiper-slide aftertext">
+                        <img src="./X_aeftibrrrr/img/png/br-20.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
         <footer-zone></footer-zone>
     </div>
     <script src="./js/nav.js"></script>
     <script src="./js/footer.js"></script>
     <script src="./js/app2.js"></script>
     <script src="./js/disablelongpress.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".Swiper_01", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
