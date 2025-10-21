@@ -41,10 +41,10 @@ customElements.define('footer-zone', class extends HTMLElement {
                                     <div class="list">
                                         <p class="item text" >
                                         簡約風格作品集，
-                                        <br>如果對北經殘卷風
-                                        <br>格過敏，請透過鍬
-                                        <br>形蟲圖像連結進入
-                                        <br>參閱。
+                                        對北經殘卷風
+                                        格過敏，請由右
+                                        側或下方的甲蟲圖
+                                        像進入參閱。
                                         </p>
                                     </div>
                                 </div>
@@ -94,6 +94,9 @@ customElements.define('footer-zone', class extends HTMLElement {
                             版權為本人所有，除法律規定或特別指明外，非經本人書面授權同意，不得以任何方式轉載、
                             修改、傳輸、再製、散佈、出版或是傳播。</span>
                         <div class="link-box">
+
+                        <span>北經殘卷及羽衣悔換中所載之作品，基於職業倫理，模糊處理並化名公司和專案名稱，揭示內容為已修改的虛構資料。如欲瞭解更多，歡迎與我聯繫。</span>
+                        <!--
                             <span>北經殘卷及羽衣悔換中所載之練習作品與其他作品，版權或資源出處如下:</span>
                             <span>1. APP UI 為再製、修改，原型來源:<a
                                     href="https://www.youtube.com/@DesignCodeTeam">@DesignCodeTeam</a></span>
@@ -106,6 +109,7 @@ customElements.define('footer-zone', class extends HTMLElement {
                             <span>5. 練習小計畫、語言問題解決:<a
                                     href="https://www.youtube.com/@OnlineTutorialsYT">@OnlineTutorialsYT</a>、<a
                                     href="https://stackoverflow.com/">stackoverflow</a></span>
+                                    -->
                         </div>
                     </div>
                     
