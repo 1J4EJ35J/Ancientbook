@@ -351,12 +351,12 @@ function emptyAddClass() {
       document.querySelector('.magic-circle').src = margicSrc02;
       document.querySelector('.center').src = centerSrc02;
       document.querySelector('.ps-boximg').src = adobeSrc;
-      psText.innerHTML = "使用Adobe系列軟體處理圖像、影片後製、平面設計或繪製畫稿。";
+      psText.innerHTML = "透過Git 進行拉取、合併、推送等操作。完成檔案的同步整合與提交。";
     } else {
       document.querySelector('.magic-circle').src = margicSrc01;
       document.querySelector('.center').src = centerSrc01;
       document.querySelector('.ps-boximg').src = psSrc;
-      psText.innerHTML = "使用Photoshop繪製圖形、調整照片圖像或去背、合成，設計平面視覺。";
+      psText.innerHTML = "透過Git 進行拉取、合併、推送等操作。完成檔案的同步整合與提交。";
     }
   };
 

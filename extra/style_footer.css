@@ -97,6 +97,7 @@
   height: auto;
   padding: 0;
   position: relative;
+  margin-top: -8rem;
 }
 
 .footer-container .footer-body .right-side .zone.allomyrina .container {
@@ -253,6 +254,9 @@
   .footer-container .footer-body .left-side .zone .container.allomyrina-info{
     grid-column: 1/3;
     max-width: 320px;
+  }
+  .footer-container .footer-body .right-side .zone.allomyrina{
+    margin-top: 0;
   }
 }
 @media(max-width:460px){

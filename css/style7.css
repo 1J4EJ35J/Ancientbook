@@ -759,22 +759,24 @@ About me
   /* background: azure; */
   position: relative;
   width: 301px;
-  height: 509px;
+  height: 515px;
   overflow: hidden;
   margin-left: 2rem;
   z-index: 1;
+  margin-top: 1rem;
+}
+.me.-andmyphoto{
+  width: auto;
+  height: 600px;
 }
 
-.aboutme .content-container .img-overlay img {
-  width: 110%;
-  height: auto;
-}
-
-.cloud-container .aboutme-cloud-front {
+.aboutme-cloud-front.ove-1,
+.aboutme-cloud-front.ove-2 {
   opacity: 0;
 }
 
-.aboutme-cloud-front {
+.aboutme-cloud-front.ove-1,
+.aboutme-cloud-front.ove-2  {
   bottom: -5rem;
   right: 1rem;
   width: 729px;
@@ -1067,7 +1069,7 @@ GALLERY
   top: 0;
   display: grid;
   column-gap: 0.3rem;
-  grid-template-columns: auto calc(64px + 80px);
+  grid-template-columns: auto calc(64px + 104px);
   /* grid-template-columns: auto 64px 80px; */
   padding: 7.6rem 2rem 1rem 5.729rem;
   width: 100%;
@@ -1086,6 +1088,16 @@ GALLERY
   height: 76%;
 }
 
+.scroll-img-container{
+  display: inline-block;
+  height: 100%;
+  object-fit: cover;
+}
+.scroll-img{
+  height:100%;
+  width: auto;
+  
+}
 .scroll-content .text div.data,
 .scroll-content .text div.title {
   height: 100%;
@@ -1722,12 +1734,12 @@ img.magic-circle {
 }
 
 .ae-text {
-  left: -325px;
+  left: -305px;
   top: -355px;
 }
 
 .pri-text {
-  left: -200px;
+  left: -230px;
   top: -287px;
 }
 
@@ -2136,6 +2148,8 @@ Media Device in Response.css
 .aboutme .bg-container .sky-bg-img.bg-elements{
   top: auto;
   bottom: 0;
+  min-width: 1440px;
+  object-fit: initial;
 }
 
 
@@ -2148,7 +2162,8 @@ Media Device in Response.css
   position: absolute;
   top: 0;
   left: 0;
-  object-fit: cover;
+  min-width: 1440px;
+  object-fit: initial;
 }
 .skill .bg-container{
   min-height: unset;

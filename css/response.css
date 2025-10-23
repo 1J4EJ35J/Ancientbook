@@ -1,13 +1,14 @@
-
 @media screen and (max-width: 1200px) {
-    .aboutme .bg-container .overlay.cloud-0{
+    .aboutme .bg-container .overlay.cloud-0 {
         left: -600px;
         transform: rotateY(0deg) scale(.8);
     }
-    .aboutme .bg-container .overlay.cloud-1 svg{
+
+    .aboutme .bg-container .overlay.cloud-1 svg {
         width: 1920px;
         height: auto;
-      }
+    }
+
     .zhulong-container .img-overlay-one {
         left: -100px;
     }
@@ -51,21 +52,26 @@
         top: 0.3rem;
     }
 }
-@media screen and (max-width: 1090px){
-    .zhulong-container .img-overlay-one{
-      left: -120px;
+
+@media screen and (max-width: 1090px) {
+    .zhulong-container .img-overlay-one {
+        left: -120px;
     }
-  }
+}
+
 @media screen and (max-width: 1048px) {
-    .aboutme .bg-container .overlay.cloud-1{
+    .aboutme .bg-container .overlay.cloud-1 {
         left: -600px;
     }
+
     .aboutme .content-container {
         padding-left: 0rem;
         padding-right: 0rem;
-        margin:0rem auto;
+        margin: 0rem auto;
     }
-    .aboutme-cloud-front {
+
+    .aboutme-cloud-front.ove-1,
+    .aboutme-cloud-front.ove-2 {
         bottom: -3rem;
         right: -8rem;
         width: 629px;
@@ -93,17 +99,16 @@
 }
 
 @media screen and (max-width: 960px) {
-    .aboutme .bg-container .overlay.cloud-1{
+    .aboutme .bg-container .overlay.cloud-1 {
         left: -900px;
     }
+
     .aboutme .content-container {
         grid-template-columns: 55% 45%;
         grid-gap: 1rem;
     }
 
-    .aboutme .content-container .img-overlay img {
-        transform: scale(0.78);
-    }
+
 
     .gallery .content-container .mirror,
     .gallery .content-container .mask {
@@ -146,9 +151,10 @@
 
 
 @media screen and (max-width: 776px) {
-    .aboutme .bg-container .overlay.cloud-1{
+    .aboutme .bg-container .overlay.cloud-1 {
         left: -400px;
     }
+
     .content-container .title img {
         top: -2.4rem;
         left: -0.8rem;
@@ -161,7 +167,7 @@
 
     .aboutme .content-container {
         grid-template-columns: 460px;
-        grid-template-rows: 65% 45%;
+        grid-template-rows: 51% 49%;
         transform: scale(1);
         z-index: 10;
         grid-gap: 0;
@@ -184,14 +190,14 @@
     }
 
     .aboutme .content {
-        grid-template-columns:minmax(11rem, 16rem) 100px;
+        grid-template-columns: minmax(11rem, 16rem) 100px;
         margin-top: 0rem;
         margin-left: auto;
         margin-right: auto;
         column-gap: 1rem;
     }
 
-    
+
     .aboutme .content .text,
     .aboutme .content .title {
         position: relative;
@@ -199,7 +205,8 @@
         transform: translateY(-.5rem);
     }
 
-    .aboutme-cloud-front {
+    .aboutme-cloud-front.ove-1,
+    .aboutme-cloud-front.ove-2 {
         bottom: -3rem;
         right: -8rem;
         width: 529px;
@@ -283,6 +290,22 @@
 
     .contact .content-container {
         padding: 10rem 1rem 0 4rem;
+    }
+
+
+
+    @media screen and (max-height: 916px) {
+        .aboutme .content-container {
+            grid-template-columns: 460px;
+            grid-template-rows: 65% 45%;
+            transform: scale(1);
+            z-index: 10;
+            grid-gap: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+
     }
 }
 
@@ -478,22 +501,28 @@
 }
 
 @media screen and (max-width: 640px) {
+
     .aboutme .content-container,
     .contact .content-container {
         transform: scale(.88);
         /* 內文字20跟著縮小為17.6 */
     }
 
+    .aboutme .content-container {
+     margin-left: 4rem;
+    }
+
     .aboutme .content {
-        grid-template-columns:minmax(10rem, 16rem) 100px;
+        grid-template-columns: minmax(10rem, 16rem) 100px;
         margin-top: 0rem;
         column-gap: 0.8rem;
     }
-    .aboutme .content .text p a{
+
+    .aboutme .content .text p a {
         color: var(--color-copyright-moreinfo);
     }
 
-    .aboutme .content .text p a::before{
+    .aboutme .content .text p a::before {
         border-left: .08rem solid var(--color-copyright-moreinfo);
     }
 
@@ -602,21 +631,30 @@
 }
 
 @media screen and (max-width:420px) {
+    .aboutme .content-container {
+     margin-left: 2.7rem;
+    }
     .contact .content-container {
         width: 100%;
         padding: 10rem 0 0 0;
         margin: 0 1rem;
         transform: translateX(-.8rem) scale(.88);
     }
+
     .content-container .contact-me,
     .content-container .stagbeetle {
         grid-template-columns: minmax(200px, 1fr) minmax(7rem, 0.4fr) minmax(32px,
                 0.2fr);
     }
+
     .contact-me .title,
     .stagbeetle .title {
         left: -.6rem;
         right: auto;
+    }
+}@media screen and (max-width:390px){
+    .aboutme .content-container {
+     margin-left: 1rem;
     }
 }
 
@@ -668,12 +706,14 @@
     }
 
     .aboutme .content {
-        grid-template-columns:minmax(12rem, 13rem) 64px;
+        grid-template-columns: minmax(12rem, 13rem) 64px;
         margin-left: auto;
         margin-right: auto;
         column-gap: 0.5rem;
     }
-
+.aboutme .content .text p {
+    margin-top: 14px;
+}
     .gallery .content-container .mirror,
     .gallery .content-container .mask {
         width: 100vw;
@@ -734,6 +774,7 @@
         left: 94px;
         height: 11rem;
     }
+
     .content-container .contact-me,
     .content-container .stagbeetle {
         grid-template-columns: minmax(200px, 1fr) minmax(4.6rem, 0.4fr) minmax(32px,
@@ -744,7 +785,7 @@
 
 
 @media screen and (max-width:360px) {
-    
+
     .skill .magic-circle-container {
         transform: translateX(-.25rem) scale(.88);
     }
@@ -765,6 +806,7 @@
         transform: scale(.9);
         right: 1.5rem;
     }
+
     .skill .magic-circle-container {
         transform: translateX(-1.5rem) scale(.88);
     }
@@ -772,6 +814,7 @@
     img.magic-circle {
         transform: translateX(-.155rem);
     }
+
     .content-container .contact-me,
     .content-container .stagbeetle {
         grid-template-columns: minmax(160px, 1fr) minmax(4.6rem, 0.4fr) minmax(32px,
@@ -840,6 +883,7 @@
         transform: translateX(-.21rem);
     }
 }
+
 @media screen and (max-width:360px) {
     img.magic-circle {
         transform: translateX(-.18rem);
@@ -901,14 +945,17 @@
     .gallery .content-container {
         width: 100vw;
     }
+
     .contact .bg-container img.cloud {
         top: -35rem;
         width: 1336px;
     }
+
     .skill .magic-circle-container {
         top: 0px;
     }
 }
+
 @media screen and (min-height: 960px) {
 
     .skill .bg-container {
@@ -936,64 +983,122 @@
         transform: scale(1);
     }
 }
+
 @media screen and (max-height: 912px) {
-    .aboutme-cloud-front {
-        bottom: -7rem;
-        right: 10%;
+
+
+    .aboutme-cloud-front.ove-2 {
+        bottom: -6rem;
+        right: 13%;
         width: 929px;
+        opacity: 1;
     }
 
-    .cloud-container .aboutme-cloud-front {
+    .aboutme-cloud-front.ove-1 {
         opacity: 1;
-        right: 17rem;
-        bottom: -16rem;
-        width: 880px;
+        right: 7rem;
+        bottom: -9rem;
+        width: 680px;
         height: auto;
     }
 }
 
 @media screen and (min-height: 913px) {
-    
+
     .cloud-container {
         position: relative;
         width: 301px;
         height: 509px;
     }
 
-    .cloud-container .aboutme-cloud-front {
+
+    .aboutme-cloud-front.ove-1 {
         opacity: 1;
         right: -25rem;
-        bottom: -21rem;
-        width: 929px;
+        bottom: -12rem;
+        width: 600px;
         height: auto;
     }
 
-    .aboutme-cloud-front{
+    .aboutme-cloud-front.ove-2 {
         opacity: 1;
-        width: 980px;
+        width: 740px;
         height: auto;
-        bottom: -8rem;
-    right: 7rem;
+        bottom: -10rem;
+        right: 9rem;
     }
 }
 
 @media screen and (max-width: 1540px) {
-    .contact .bg-container img.cloud.-middle{
+    .contact .bg-container img.cloud.-middle {
         top: -10rem;
         right: 25rem;
         left: auto;
         opacity: 0;
     }
-}
-@media screen and (min-width: 1540px) {
-    
-    .aboutme-cloud-front{
+
+    .aboutme-cloud-front.ove-1 {
+        opacity: 1;
+        width: 880px;
+        height: auto;
+        bottom: -20rem;
+        right: -31rem;
+    }
+
+    .aboutme-cloud-front.ove-2 {
         opacity: 1;
         width: 980px;
         height: auto;
         bottom: -7rem;
-    right: 1rem;
+        right: 1rem;
     }
+
+    @media screen and (max-height: 912px) {
+        .aboutme-cloud-front.ove-1 {
+            opacity: 1;
+            width: 880px;
+            height: auto;
+            bottom: -12rem;
+            right: -7rem;
+        }
+    }
+}
+
+@media screen and (min-width: 1540px) {
+
+    .aboutme-cloud-front.ove-1 {
+        opacity: 1;
+        width: 680px;
+        height: auto;
+        bottom: -20rem;
+        right: -8rem;
+    }
+
+    .aboutme-cloud-front.ove-2 {
+        opacity: 1;
+        width: 980px;
+        height: auto;
+        bottom: -7rem;
+        right: 1rem;
+    }
+
+    @media screen and (max-height: 912px) {
+        .aboutme-cloud-front.ove-1 {
+            opacity: 1;
+            width: 880px;
+            height: auto;
+            bottom: -12rem;
+            right: -2rem;
+        }
+
+        .aboutme-cloud-front.ove-2 {
+            bottom: -6rem;
+            right: 13%;
+            width: 929px;
+            opacity: 1;
+        }
+    }
+
     .zhulong-container .img-overlay-one {
         width: 1006px;
         left: -5rem;
@@ -1003,7 +1108,8 @@
         left: -100px;
         width: 853px;
     }
-    .contact .bg-container img.cloud.-middle{
+
+    .contact .bg-container img.cloud.-middle {
         top: -10rem;
         right: 25rem;
         left: auto;
@@ -1016,16 +1122,25 @@
     }
 }
 
-@media screen and (min-width: 1660px){
+@media screen and (min-width: 1660px) {
     #star02 {
         transform: rotate(180deg);
         top: -20rem;
         left: -10rem;
         z-index: 10;
     }
-    
-    @media screen and (max-height: 912px){
-        .cloud-container .aboutme-cloud-front {
+
+    @media screen and (max-height: 912px) {
+
+        .aboutme-cloud-front.ove-1 {
+            opacity: 1;
+            right: 6rem;
+            bottom: -13rem;
+            width: 929px;
+            height: auto;
+        }
+
+        .aboutme-cloud-front.ove-2 {
             opacity: 1;
             right: 33rem;
             bottom: -18rem;
@@ -1034,143 +1149,250 @@
         }
     }
 }
-@media screen and (min-width: 1920px){
-    .aboutme-cloud-front{
+
+@media screen and (min-width: 1920px) {
+
+    .aboutme-cloud-front.ove-1 {
         opacity: 1;
-        width: 1280px;
+        width: 990px;
         height: auto;
-        bottom: -12rem;
-    right: 7rem;
+        bottom: -13rem;
+        right: 7rem;
+    }
+
+    .aboutme-cloud-front.ove-2 {
+        opacity: 1;
+        width: 980px;
+        height: auto;
+        bottom: -8rem;
+        right: 15rem;
+    }
+
+    @media screen and (min-height: 913px) {
+        .aboutme-cloud-front.ove-1 {
+            opacity: 1;
+            right: -32rem;
+            bottom: -20rem;
+            width: 900px;
+            height: auto;
+        }
     }
 }
 
 
 
-@media screen and (min-height: 1020px){
+@media screen and (min-height: 1020px) {
     .aboutme .bg-container .overlay:nth-child(3) {
         transform: scale(1.3);
         opacity: 1;
         top: -25rem;
         left: -11rem;
-      }
+    }
 }
-@media screen and (min-height: 1280px){
-    .aboutme .bg-container .overlay:nth-child(4){
+
+@media screen and (min-height: 1280px) {
+    .aboutme .bg-container .overlay:nth-child(4) {
         transform: scale(1.4);
     }
+
     .aboutme .bg-container .overlay:nth-child(3) {
         transform: scale(1.6);
         opacity: 1;
         top: -25rem;
         left: 0rem;
-      }
+    }
 }
-@media screen and (max-width: 1366px){
-    .gallery .bg-container{
-      min-height: 1000px;
+
+@media screen and (max-width: 1366px) {
+    .gallery .bg-container {
+        min-height: 1000px;
     }
-    
-    .gallery .content-container .mirror, .gallery .content-container .mask{
-      height: calc(100% - 38%);
+
+    .gallery .content-container .mirror,
+    .gallery .content-container .mask {
+        height: calc(100% - 38%);
     }
-    .swiper-box{
-      transform: translateY(0rem);
+
+    .swiper-box {
+        transform: translateY(0rem);
     }
-    .gallery .content-container .mirror, .gallery .content-container .mask {
-      transform: translateX(0);
+
+    .gallery .content-container .mirror,
+    .gallery .content-container .mask {
+        transform: translateX(0);
     }
-  }
- 
+}
+
 
 @media screen and (max-width: 1200px) {
-    .gallery .content-container .mirror, .gallery .content-container .mask {
+
+    .gallery .content-container .mirror,
+    .gallery .content-container .mask {
         transform: translateX(-120px);
     }
 }
+
 @media screen and (max-width: 1055px) {
-    .gallery .content-container .mirror, .gallery .content-container .mask {
+
+    .gallery .content-container .mirror,
+    .gallery .content-container .mask {
         transform: translateX(-170px);
     }
 }
+
 @media screen and (max-width: 992px) {
-    .gallery .content-container .mySwiper2.swiper{
+    .gallery .content-container .mySwiper2.swiper {
         width: 1440px;
     }
-    .gallery .content-container .mirror, .gallery .content-container .mask {
+
+    .gallery .content-container .mirror,
+    .gallery .content-container .mask {
         width: 101vw;
         height: calc(100% - 31.6%);
         transform: translate(-1px, 68px);
         left: 0;
     }
+
     .gallery .content-container .mySwiper2.swiper {
         transform: translateX(-360px) scale(.88);
     }
+
     .swiper-box {
         transform: translateY(40px);
     }
+
     .mySwiper1 {
         transform: translate(-11rem, -2.7rem);
     }
+
     .zhulong-container .img-overlay-two {
         top: 680px;
     }
 }
 
-@media screen and (max-width: 965px){
+@media screen and (max-width: 965px) {
     .mySwiper1 {
         transform: translate(11rem, -2.7rem);
     }
+
     .gallery .content-container .mySwiper2.swiper {
         transform: translateX(-0px) scale(.88);
     }
 }
-@media screen and (max-width: 776px){
+
+@media screen and (max-width: 776px) {
     .gallery .content-container .mirror {
         width: 101vw;
         height: calc(100% - 31.6%);
         transform: translate(-1px, 68px);
         left: 0;
     }
+
     .swiper-box {
         transform: translateY(0px);
     }
+
     .mySwiper1 {
         transform: translate(27%, 0rem);
     }
+
     .gallery .content-container .mySwiper2.swiper {
         transform: translate(-0px, 10px) scale(.9);
     }
 }
-@media screen and (max-width: 450px){
+
+@media screen and (max-width: 450px) {
     .gallery .content-container .mySwiper2.swiper {
         transform: translate(-0px, 10px) scale(.88);
         height: 90%;
     }
+
     .mySwiper1 {
         transform: translate(27%, -1rem);
     }
+
     .scroll-content .text .data p {
         font-size: calc(15.12px / .9);
         height: auto;
     }
+
     .scroll-content .title div h4:last-child {
         font-size: calc(20px / .9);
         padding-top: 6px;
     }
+
     .scroll-content .title div h4:first-child {
         font-size: calc(18px / .9);
     }
 }
-@media screen and (max-width: 420px){
+
+@media screen and (max-width: 420px) {
     .swiper-box {
         transform: translateY(-10px);
     }
+
     .gallery .content-container .mySwiper2.swiper {
         transform: translate(-0px, 10px) scale(.8);
     }
+
     .scroll-content .text .data p {
         font-size: calc(15.12px / .9);
         height: 95%;
     }
-    
+}
+
+@media screen and (max-width: 1370px) {
+    .aboutme-cloud-front.ove-1 {
+        opacity: 1;
+        right: -26rem;
+        bottom: -17rem;
+        width: 760px;
+        height: auto;
+    }
+
+    .aboutme-cloud-front.ove-2 {
+        opacity: 0;
+        right: -25rem;
+        bottom: -12rem;
+        width: 600px;
+        height: auto;
+    }
+
+    @media screen and (max-height: 913px) {
+        .aboutme-cloud-front.ove-1 {
+            opacity: 1;
+            right: -8rem;
+            bottom: -9rem;
+            width: 760px;
+            height: auto;
+        }
+
+        .aboutme-cloud-front.ove-2 {
+            opacity: 0;
+            right: -25rem;
+            bottom: -12rem;
+            width: 600px;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 776px) {
+    .aboutme-cloud-front.ove-1 {
+        opacity: 1;
+        right: -38rem;
+        bottom: -23rem;
+        width: 760px;
+        height: auto;
+    }
+
+    @media screen and (max-height: 916px) {
+        .aboutme-cloud-front.ove-1 {
+            opacity: 1;
+            right: -22rem;
+            bottom: -7rem;
+            width: 760px;
+            height: auto;
+        }
+    }
 }

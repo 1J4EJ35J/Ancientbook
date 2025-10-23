@@ -36,6 +36,7 @@ customElements.define('footer-zone', class extends HTMLElement {
                                         <a class="item text" href="">留言給我</a>
                                     </div>
                                 </div>
+                                <!--
                                 <div class="container  allomyrina-info">
                                     <h4 class="title">羽衣悔換</h4>
                                     <div class="list">
@@ -48,6 +49,7 @@ customElements.define('footer-zone', class extends HTMLElement {
                                         </p>
                                     </div>
                                 </div>
+                                -->
                             </div>
                         </div>
                         <div class="right-side">
@@ -61,12 +63,11 @@ customElements.define('footer-zone', class extends HTMLElement {
                                                 <img src="./img/footer/p_beetle.webp" class="img-control">
                                             </div>
                                         </a>
-                                        <!--
+                                        
                                         <div class="item ">
                                             <h4 class="title">羽衣悔換</h4>
-                                            <p class="text"> Neumorphic style 作品集，如對北經殘卷風格過敏，請由圖像連結進入參閱。 </p>
+                                            <p class="text"> Neumorphic style 作品集，如果對北經殘卷風格過敏，請由圖像連結進入參閱。 </p>
                                         </div>
-                                        -->
                                     </div>
                                 </div>
                             </div>
