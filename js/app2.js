@@ -38,22 +38,22 @@ let star01 = document.getElementById('star01');
 let star02 = document.getElementById('star02');
 
 let mediaW768 = window.matchMedia('(max-width:768px)')
-    madiaW979 = window.matchMedia('(max-width:979px)')
-    mediaH1240 = window.matchMedia('(min-height:1240px)');
+madiaW979 = window.matchMedia('(max-width:979px)')
+mediaH1240 = window.matchMedia('(min-height:1240px)');
 mediaW768.addEventListener('change', titleChange)
 
-function titleChange(){
-  if(mediaW768.matches){
+function titleChange() {
+  if (mediaW768.matches) {
     title767.style.display = `none`;
     title766.style.display = `block`;
   }
-  else{
+  else {
     title767.style.display = `block`;
     title766.style.display = `none`;
   }
 };
 titleChange();
-  
+
 
 window.addEventListener('scroll', function () {
   let value = window.scrollY;
@@ -68,7 +68,7 @@ window.addEventListener('scroll', function () {
     seaTopback.style.transform = `scale(${.9})`;
     seaTopback.style.transition = `${2}s`;
     seaTopback.style.opacity = `${value / value * 300 / value}`;
-  }if (value <= 40) {
+  } if (value <= 40) {
     seaTopback.style.transform = `scale(${1})`;
     seaTopback.style.opacity = `${.6}`;
   }
@@ -77,40 +77,40 @@ window.addEventListener('scroll', function () {
     seaMid.style.transform = `scale(${.75})`;
     seaMid.style.transition = `${2}s`;
     seaMid.style.opacity = `${value / value * 400 / value}`;
-  }if (value <= 90) {
+  } if (value <= 90) {
     seaMid.style.transform = `scale(${1})`;
     seaMid.style.opacity = `${.88}`;
   };
-////////////////////
+  ////////////////////
   let mediaW1048 = window.matchMedia("(max-width: 1048px)");
   mediaW1048.addEventListener('change', title767Top)
 
-  function title767Top(){
-    if(mediaW1048.matches){
+  function title767Top() {
+    if (mediaW1048.matches) {
       title767.style.transform = `scale(${.9})`;
-      if (value > 120){
+      if (value > 120) {
         title767.style.top = `${value * .6}px`;
         title767.style.transform = `scale(${.9 / value * .47})`;
-        title767.style.opacity = `${ value / value * 100/value}`;
+        title767.style.opacity = `${value / value * 100 / value}`;
         title767.style.transition = `${.8}s`
-      } if (value > 600){
+      } if (value > 600) {
         title767.style.opacity = `${0}`;
-      } if (value <= 120){
+      } if (value <= 120) {
         title767.style.top = `${0}px`;
         title767.style.opacity = `${1}`;
         title767.style.transform = `scale(${.9})`;
         title767.style.transition = `${.9}s`
       }
-    } else{
+    } else {
       title767.style.transform = `scale(${1})`;
-      if (value > 120){
+      if (value > 120) {
         title767.style.top = `${value * .6}px`;
         title767.style.transform = `scale(${value / value * .47})`;
-        title767.style.opacity = `${ value / value * 100/value}`;
+        title767.style.opacity = `${value / value * 100 / value}`;
         title767.style.transition = `${.8}s`
-      } if (value > 600){
+      } if (value > 600) {
         title767.style.opacity = `${0}`;
-      } if (value <= 120){
+      } if (value <= 120) {
         title767.style.top = `${0}px`;
         title767.style.opacity = `${1}`;
         title767.style.transform = `scale(${1})`;
@@ -119,7 +119,7 @@ window.addEventListener('scroll', function () {
     }
   }
   title767Top()
-///////////////
+  ///////////////
   let mediaH800 = window.matchMedia("(max-height: 800px)");
   mediaH800.addEventListener('change', title766Top)
   function title766Top() {
@@ -129,10 +129,10 @@ window.addEventListener('scroll', function () {
         title766.style.top = `${160 + value * .6}px`;
         title766.style.opacity = `${1 * 60 / value}`;
         title766.style.transition = `${.6}s`;
-      }if (value < 40) {
+      } if (value < 40) {
         title766.style.top = `${160}px`;
         title766.style.opacity = `${1}`;
-      }if (value > 1400) {
+      } if (value > 1400) {
         title766.style.top = `${0}px`;
         //title766.style.opacity = `${0}`;
         title766.style.transition = `${0}s`;
@@ -143,10 +143,10 @@ window.addEventListener('scroll', function () {
         title766.style.top = `${240 + value * .6}px`;
         title766.style.opacity = `${1 * 60 / value}`;
         title766.style.transition = `${.6}s`;
-      }if (value < 40) {
+      } if (value < 40) {
         title766.style.top = `${240}px`;
         title766.style.opacity = `${1}`;
-      }if (value > 1400) {
+      } if (value > 1400) {
         title766.style.top = `${0}px`;
         //title766.style.opacity = `${0}`;
         title766.style.transition = `${0}s`;
@@ -169,18 +169,18 @@ window.addEventListener('scroll', function () {
     star01.style.transform = `scale(${1 + value * .0003})`;
     star02.style.opacity = `${0 + value * .8}`;
     star02.style.transition = `${3.5}s`;
-  }if (value < 40) {
+  } if (value < 40) {
     seaBottom.style.top = `${0}px`;
     cloudBottom.style.top = `${-20}rem`;
     cloudBottom.style.opacity = `${0}`;
     star01.style.top = `${-15}rem`;
     star01.style.transform = `scale(${1})`;
-  }if (value < 700) {
+  } if (value < 700) {
     star02.style.opacity = `${0}`;
-  }if (value > 400) {
+  } if (value > 400) {
     star01.style.opacity = `${.9 * 150 / value}`;
 
-  }if (value > 1600) {
+  } if (value > 1600) {
     seaBottom.style.top = `${0}px`;
     seaBottom.style.opacity = `${0}`;
     seaBottom.style.transition = `${0}s`;
@@ -192,7 +192,7 @@ window.addEventListener('scroll', function () {
     star01.style.transition = `${0}s`;
     star01.style.transform = `scale(${1})`;
     star02.style.opacity = `${1}`;
-  }if (value > 400){
+  } if (value > 400) {
   }
 
   /*if(window.matchMedia('(min-width:1366px)').matches){
@@ -341,6 +341,11 @@ function emptyAddClass() {
   let adobeSrc = document.querySelector('.adobe').getAttribute('data-src');
   let media767 = window.matchMedia('(max-width:767px)');
   let psText = document.querySelector('.ps-text');
+  let aeText = document.querySelector('.ae-text');
+  let priText = document.querySelector('.pri-text');
+  let aiText = document.querySelector('.ai-text');
+  console.log(aiText);
+  let inText = document.querySelector('.in-text');
   //imgExchange(media767)
   //media767.addListener(imgExchange)
 
@@ -352,6 +357,7 @@ function emptyAddClass() {
       document.querySelector('.center').src = centerSrc02;
       document.querySelector('.ps-boximg').src = adobeSrc;
       psText.innerHTML = "透過Git 進行拉取、合併、推送等操作。完成檔案的同步整合與提交。";
+
     } else {
       document.querySelector('.magic-circle').src = margicSrc01;
       document.querySelector('.center').src = centerSrc01;
@@ -366,15 +372,15 @@ function emptyAddClass() {
 
 
 let body = document.body;
-  //console.log(body);
-  
-  body.addEventListener('contextmenu', (e)=>{
-    e.preventDefault();
-  });
-  
-  window.oncontextmenu = function(event) {
-    event.preventDefault();
-    event.stopPropagation();
-    return false;
-  };;
+//console.log(body);
+
+body.addEventListener('contextmenu', (e) => {
+  e.preventDefault();
+});
+
+window.oncontextmenu = function (event) {
+  event.preventDefault();
+  event.stopPropagation();
+  return false;
+};;
 

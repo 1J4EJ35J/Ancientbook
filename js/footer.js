@@ -5,8 +5,8 @@ customElements.define('footer-zone', class extends HTMLElement {
         <footer class="footer-zone">
             <section class="cb-footer-content">
                 <div class="footer-container">
-                    <a class="logo img-container" href="https://ancientbook.bokupig.design/">
-                        <img src="./img/footer/logo_a_2.svg" class="img-control">
+                    <a class="logo img-container" href="https://ancientbook.bokupig.space/">
+                        <img src="https://raw.githubusercontent.com/1J4EJ35J/Ancientbook/main/img/footer/logo_a_2.svg" class="img-control">
                     </a>
                     
                     <div class="footer-body">
@@ -60,7 +60,7 @@ customElements.define('footer-zone', class extends HTMLElement {
                                         <a class="allomyrina-item" href="">
                                             <div class="shadow-box03"></div>
                                             <div class="allomyrina img-container">
-                                                <img src="./img/footer/p_beetle.webp" class="img-control">
+                                                <img src="https://raw.githubusercontent.com/1J4EJ35J/Ancientbook/main/img/footer/p_beetle.webp" class="img-control">
                                             </div>
                                         </a>
                                         
@@ -76,7 +76,7 @@ customElements.define('footer-zone', class extends HTMLElement {
                 </div>
             </section>
             <div class="copyright">
-                <span>&#169; 2022-2023 布榖豬/BOKU-PIG.&nbsp;&nbsp;<a class="more-info-btn">More info..</a></span>
+                <span>&#169; 2023-2025 布榖豬/BOKU-PIG.&nbsp;&nbsp;<a class="more-info-btn">More info..</a></span>
             </div>
             <section class="copyright-moreinfo">
                 <div class="moreinfo-box">

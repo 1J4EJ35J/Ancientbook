@@ -1069,7 +1069,7 @@ GALLERY
   top: 0;
   display: grid;
   column-gap: 0.3rem;
-  grid-template-columns: auto calc(64px + 104px);
+  grid-template-columns: auto calc(64px + 116px);
   /* grid-template-columns: auto 64px 80px; */
   padding: 7.6rem 2rem 1rem 5.729rem;
   width: 100%;
@@ -1744,12 +1744,12 @@ img.magic-circle {
 }
 
 .ai-text {
-  left: -640px;
-  top: -220px;
+  left: -605px;
+  top: -218px;
 }
 
 .in-text {
-  left: -520px;
+  left: -535px;
   top: -137px;
 }
 
