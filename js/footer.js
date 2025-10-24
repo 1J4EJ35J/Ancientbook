@@ -15,9 +15,9 @@ customElements.define('footer-zone', class extends HTMLElement {
                                 <div class="container">
                                     <h4 class="title">作品集</h4>
                                     <div class="list">
-                                        <a class="item text" href="">醫療整合後台</a>
-                                        <a class="item text" href="">社會公益平台</a>
-                                        <a class="item text" href="">健康運動後台</a>
+                                        <a class="item text" href="https://ancientbook.bokupig.space/x_vnriwc/">社會公益平台</a>
+                                        <a class="item text" href="https://ancientbook.bokupig.space/x_aeftibr/">健康運動後台</a>
+                                        <a class="item text" href="https://ancientbook.bokupig.space/x_svheiy/">醫療整合後台</a>
                                     </div>
                                 </div>
                                 <!--
@@ -32,8 +32,8 @@ customElements.define('footer-zone', class extends HTMLElement {
                                 <div class="container">
                                     <h4 class="title">與我聯繫</h4>
                                     <div class="list">
-                                        <a class="item text" href="">信件傳遞</a>
-                                        <a class="item text" href="">留言給我</a>
+                                        <a class="item text" href="mailto:ddnstarAhora@gmail.com">信件傳遞</a>
+                                        <a class="item text" href="https://www.instagram.com/loochitenn?igshid=ZDdkNTZiNTM%3D">留言給我</a>
                                     </div>
                                 </div>
                                 <!--
@@ -57,7 +57,7 @@ customElements.define('footer-zone', class extends HTMLElement {
                                 <div class="container">
                                     <!--<h4 class="title">羽衣悔換</h4>-->
                                     <div class="list">
-                                        <a class="allomyrina-item" href="">
+                                        <a class="allomyrina-item" href="https://allomyrina.bokupig.space/">
                                             <div class="shadow-box03"></div>
                                             <div class="allomyrina img-container">
                                                 <img src="https://raw.githubusercontent.com/1J4EJ35J/Ancientbook/main/img/footer/p_beetle.webp" class="img-control">

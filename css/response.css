@@ -487,10 +487,26 @@
         top: 564px;
     }
 
-    .ae-box,
-    .pri-box,
-    .ai-box,
-    .in-box,
+    .ae-text {
+        left: -465px;
+        top: -130px;
+    }
+
+    .pri-text {
+        left: -388px;
+        top: -60px;
+    }
+
+    .ai-text {
+        left: -765px;
+        top: 10px;
+    }
+
+    .in-text {
+        left: -690px;
+        top: 88px;
+    }
+
     .ae-box img.img-btn,
     .pri-box img.img-btn,
     .ai-box img.img-btn,
@@ -509,7 +525,7 @@
     }
 
     .aboutme .content-container {
-     margin-left: 4rem;
+        margin-left: 4rem;
     }
 
     .aboutme .content {
@@ -632,8 +648,9 @@
 
 @media screen and (max-width:420px) {
     .aboutme .content-container {
-     margin-left: 2.7rem;
+        margin-left: 2.7rem;
     }
+
     .contact .content-container {
         width: 100%;
         padding: 10rem 0 0 0;
@@ -652,9 +669,11 @@
         left: -.6rem;
         right: auto;
     }
-}@media screen and (max-width:390px){
+}
+
+@media screen and (max-width:390px) {
     .aboutme .content-container {
-     margin-left: 1rem;
+        margin-left: 1rem;
     }
 }
 
@@ -711,9 +730,11 @@
         margin-right: auto;
         column-gap: 0.5rem;
     }
-.aboutme .content .text p {
-    margin-top: 14px;
-}
+
+    .aboutme .content .text p {
+        margin-top: 14px;
+    }
+
     .gallery .content-container .mirror,
     .gallery .content-container .mask {
         width: 100vw;
