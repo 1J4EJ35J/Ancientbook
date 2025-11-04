@@ -2168,7 +2168,7 @@ nav .title-box {
 }
 .cb-brief-text-set .cb-brief-box .cb-brief-ul-title .character {
     font-size: .6rem;
-    margin-top: 6px;
+    margin-top: 10px;
 }
 .cb-brief-box,
 .cb-brief-list {
@@ -2201,10 +2201,7 @@ nav .title-box {
   overflow: hidden;
 }
 
-.cb-brief-ul-title .character {
-  font-size: .6rem;
-  margin-top: 10px;
-}
+
 
 .img-container .icon-control {
   font-size: 1.5rem;
