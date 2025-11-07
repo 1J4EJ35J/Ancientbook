@@ -2554,8 +2554,13 @@ align-items: first baseline;
   }
 }
 @media (max-width: 980px){
-.alphabetical-order.star,
+
   .alphabetical-order.square{
+    margin-top: -4px;
+    font-size: 1.65rem;
+  }
+  .alphabetical-order.star{
+    margin-top: 1px;
     font-size: 1.5rem;
   }
 }
@@ -2577,6 +2582,12 @@ align-items: first baseline;
     font-size: .5rem;
     margin-top: 7px;
   }
+  .alphabetical-order.dot{
+    margin-top: -1px;
+  }
+      .alphabetical-order.square{
+        margin-top: -2px;
+      }
 }
 
 @media (max-width: 767px) {
@@ -2683,4 +2694,13 @@ align-items: first baseline;
     top: 4px;
     left: 4px;
   }
+}
+
+@media screen and (min-width: 981px){
+.alphabetical-order.triangle{
+    margin-top: 4px;
+}
+.alphabetical-order.star{
+  margin-top: 3px;
+}
 }
