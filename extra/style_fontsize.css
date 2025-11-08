@@ -282,15 +282,7 @@ html{
 }
 
 }
-@media (min-width: 360px){
-  .cb-advantage-content, .cb-billboard-content, .cb-brief-content, .cb-content, .cb-definition-content, .cb-description-content, .cb-employment-content, .cb-employment-top, .cb-feedback-content, .cb-listing-content, .cb-nextcase-content, .cb-numstat-content, .cb-rcfeed-content, .cb-relcase-content, .cb-screenshot-content, .cb-smfeed-content, .cb-splitshow-content {
-    padding: 120px 0;
-  }
-  .-rb.cb-advantage-content, .-rb.cb-billboard-content, .-rb.cb-brief-content, .-rb.cb-definition-content, .-rb.cb-description-content, .-rb.cb-employment-content, .-rb.cb-employment-top, .-rb.cb-feedback-content, .-rb.cb-listing-content, .-rb.cb-nextcase-content, .-rb.cb-numstat-content, .-rb.cb-rcfeed-content, .-rb.cb-relcase-content, .-rb.cb-screenshot-content, .-rb.cb-smfeed-content, .-rb.cb-splitshow-content, .-rp.cb-advantage-content, .-rp.cb-billboard-content, .-rp.cb-brief-content, .-rp.cb-definition-content, .-rp.cb-description-content, .-rp.cb-employment-content, .-rp.cb-employment-top, .-rp.cb-feedback-content, .-rp.cb-listing-content, .-rp.cb-nextcase-content, .-rp.cb-numstat-content, .-rp.cb-rcfeed-content, .-rp.cb-relcase-content, .-rp.cb-screenshot-content, .-rp.cb-smfeed-content, .-rp.cb-splitshow-content, .cb-content.-rb, .cb-content.-rp {
-    padding-bottom: 60px;
-  }
-  
-}
+
 
 
 @media (min-width: 480px){
@@ -299,10 +291,5 @@ html{
 }
 }
 @media (min-width: 768px){
-  .cb-advantage-content, .cb-billboard-content, .cb-brief-content, .cb-content, .cb-definition-content, .cb-description-content, .cb-employment-content, .cb-employment-top, .cb-feedback-content, .cb-listing-content, .cb-nextcase-content, .cb-numstat-content, .cb-rcfeed-content, .cb-relcase-content, .cb-screenshot-content, .cb-smfeed-content, .cb-splitshow-content {
-    padding: 300px 0;
-}
-  .-rb.cb-advantage-content, .-rb.cb-billboard-content, .-rb.cb-brief-content, .-rb.cb-definition-content, .-rb.cb-description-content, .-rb.cb-employment-content, .-rb.cb-employment-top, .-rb.cb-feedback-content, .-rb.cb-listing-content, .-rb.cb-nextcase-content, .-rb.cb-numstat-content, .-rb.cb-rcfeed-content, .-rb.cb-relcase-content, .-rb.cb-screenshot-content, .-rb.cb-smfeed-content, .-rb.cb-splitshow-content, .-rp.cb-advantage-content, .-rp.cb-billboard-content, .-rp.cb-brief-content, .-rp.cb-definition-content, .-rp.cb-description-content, .-rp.cb-employment-content, .-rp.cb-employment-top, .-rp.cb-feedback-content, .-rp.cb-listing-content, .-rp.cb-nextcase-content, .-rp.cb-numstat-content, .-rp.cb-rcfeed-content, .-rp.cb-relcase-content, .-rp.cb-screenshot-content, .-rp.cb-smfeed-content, .-rp.cb-splitshow-content, .cb-content.-rb, .cb-content.-rp {
-    padding-bottom: 150px;
-}
+  
 }
