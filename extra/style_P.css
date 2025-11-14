@@ -2131,15 +2131,15 @@ nav .title-box {
 .pt-25 {
   padding-top: 2.5rem;
 }
-
+.-ct.-mb.pt-30,
 .pt-30 {
   padding-top: 3rem;
 }
-
+.-ct.-mb.pt-35,
 .pt-35 {
   padding-top: 3.5rem;
 }
-
+.-ct.-mb.pt-40,
 .pt-40 {
   padding-top: 4rem;
   /*64*/
@@ -2761,6 +2761,9 @@ nav .title-box {
 @media screen and (max-width: 560px) {
   .-mb.cb-description-content {
     padding-top: 11rem;
+  }
+  .cb-brief-content{
+    padding-bottom:0;
   }
 }
 
