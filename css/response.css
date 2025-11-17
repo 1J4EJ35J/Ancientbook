@@ -228,7 +228,9 @@
         display: flex;
         align-items: center;
         gap: .3rem;
-        left: 2rem;
+        left: 5.4rem;
+        width: fit-content;
+        position: absolute;
     }
 
     .gallery .content-container .mySwiper2 .swiper-slide {
@@ -1352,6 +1354,10 @@
         transform: translateY(-10px);
     }
 
+    .mySwiper1 .swiper-wrapper {
+        left: 5.4rem;
+    }
+
     .gallery .content-container .mySwiper2.swiper {
         transform: translate(-0px, 10px) scale(.8);
     }
@@ -1416,4 +1422,16 @@
             height: auto;
         }
     }
+}
+
+
+@media screen and (max-width: 365px) {
+    .gallery .content-container .mySwiper2 .swiper-slide .svg-scroll {
+        transform: rotateZ(90deg) translateX(110px) scale(.97);
+    }
+        .scroll-content .img-overlay {
+        height: 100%;
+        padding-top: 98px;
+    }
+
 }
