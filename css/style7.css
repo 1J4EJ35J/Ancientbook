@@ -759,11 +759,11 @@ About me
   /* background: azure; */
   position: relative;
   width: 301px;
-  height: 515px;
+  height: auto;
   overflow: hidden;
   margin-left: 2rem;
   z-index: 1;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 .me.-andmyphoto{
   width: auto;
