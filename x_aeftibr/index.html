@@ -1,804 +1,707 @@
-<!DOCTYPE html>
-<html lang="zh-Hant-TW">
+<section class="cb-tophead" id="home">
+    <div class="cb-tophead-content">
+        <div class="cb-tophead-container">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Hungyu Chien">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="index,follow">
-    <meta name="rating" content="General">
-    <base target="_target">
-    <meta name="description" content="">
-    <title>北經殘卷</title>
-    <link rel="icon" type="image/png" sizes="32x32"
-        href="https://raw.githubusercontent.com/1J4EJ35J/Ancientbook/main/img/base/fav16.png">
-    <link rel="icon" type="image/png" sizes="16x16"
-        href="https://raw.githubusercontent.com/1J4EJ35J/Ancientbook/main/img/base/fav32.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#222222">
-
-    <link rel="stylesheet" href="../extra/style_fontsize.css">
-    <link rel="stylesheet" href="../extra/style_P.css">
-    <link rel="stylesheet" href="../extra/disableimgselect.css">
-    <link rel="stylesheet" href="../extra/style_footer.css">
-    <link rel="stylesheet" href="../extra/style-copyrights.css">
-    <!--font awesome cdn link-->
-    <link rel="stylesheet" href="../css/fontawsome/css/fontawesome.min.css">
-    <link rel="stylesheet" href="../css/fontawsome/css/solid.min.css">
-    <link rel="stylesheet" href="../css/fontawsome/css/regular.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-
-</head>
-
-<body>
-    <div id="loading">
-        <div class="loading-box">
-            <video loop autoplay muted playsinline preload="auto">
-                <source src="../img/sunbird/480pxh360pxw.mp4" type="video/mp4">
-            </video>
-            <div class="container">
-                <div class="percent">
-                    <div class="progress"></div>
+            <div class="cb-tophead-title -aeftibr">
+                <h2>運動APP後台管理系統-<br>
+                    UI/UX重構與設計系統建置</h2>
+            </div>
+            <p>
+                挑戰將預估156天極限壓縮至92天內，針對企業後台進行 UI/UX 重構。透過建立模組化設計系統與導入 Git
+                協作流程，解決介面與操作流程不一致痛點，成功提升團隊開發效率41%與介面設計100%一致性。
+            </p>
+        </div>
+    </div>
+</section>
+<section class="cb-screenshot">
+    <div class="cb-screenshot-preview -lg">
+        <img src="./img/br-01.webp" alt="">
+    </div>
+</section>
+<section class="cb-brief">
+    <div class="cb-brief-content">
+        <div class="cb-brief-container">
+            <div class="cb-brief-grid">
+                <div class="cb-brief-grid-col -left">
+                    <div class="cb-brief-header">
+                        <h2 class="cb-brief-title">UI RWD/SaaS ERP</h2>
+                    </div>
                 </div>
-                <div class="dot"></div>
+                <div class="cb-brief-grid-col -right">
+                    <div class="cb-brief-text-set cb-brief-text-zone">
+                        <div class="cb-brief-box pb-30">
+                            <p class="cb-brief-title">專案簡介</p>
+                            <div class="cb-brief-list-group">
+                                <p>針對企業內部高流量後台進行 UI/UX 重構。本專案挑戰在於預估156天極限壓縮時程內（92天），整合舊有功能並同步開發新需求。
+                                </p>
+                                <div class="cb-brief-list">
+                                    <div class="cb-brief-ul-title">
+                                        <p class="eng-text alphabetical-order">●</p>
+                                        <p class="text">挑戰：<br>需整合既有舊系統與新功能需求，原系統因功能快速搬運導致 UI 邏輯與視覺風格混亂。</p>
+                                    </div>
+                                    <div class="cb-brief-ul-title">
+                                        <p class="eng-text alphabetical-order">●</p>
+                                        <p class="text">目標：<br>在有限資源下，重整 UI 架構並優化操作體驗，使後台系統邏輯與視覺保持一致。</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cb-brief-box pb-30">
+                            <p class="cb-brief-title">我的角色與貢獻</p>
+                            <div class="cb-brief-list-group">
+                                <p>我是部門唯一UI/UX設計師，主導介面設計一致性與操作邏輯，同時確保專案開發效率提升。我跳脫單純的設計交付，直接參與前端架構開發：</p>
+                                <div class="cb-brief-list">
+                                    <div class="cb-brief-ul-title">
+                                        <p class="eng-text">1.</p>
+                                        <p class="text">建立設計系統：
+                                            <br>使用 Figma 定義規範，並將其轉化為標準化的 SCSS 元件庫。
+                                        </p>
+                                    </div>
+                                    <div class="cb-brief-ul-title">
+                                        <p class="eng-text">2.</p>
+                                        <p class="text">Git 協作開發：
+                                            <br>直接進入 MVC 架構，透過開分支與解決衝突，減少來回溝通成本，提升整體開發效率41%。
+                                        </p>
+                                    </div>
+                                    <div class="cb-brief-ul-title">
+                                        <p class="eng-text">3.</p>
+                                        <p class="text">全局 UI/UX 實作落地：
+                                            <br>直接優化 Razor View (.cshtml) 結構，確保設計稿 100% 還原，並解決 RWD 響應式佈局問題。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cb-brief-box">
+                            <p class="cb-brief-title">專案成員</p>
+                            <div class="cb-brief-list-group">
+                                <div class="cb-brief-list">
+                                    <p class="text">UI/UX設計師 x1 →我</p>
+                                    <p class="text">全端工程師 x2</p>
+                                    <p class="s-text pt-30">
+                                        基於職業倫理，模糊處理並化名公司和專案名稱，揭示內容為已修改的虛構資料。如欲瞭解更多，歡迎透過人力網站與我聯繫。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="main-page">
-        <!--=========header==========-->
-        <section class="media-w900">
-            <header>
-                <div class="absolute header-background"></div>
-                <div class="container">
-                    <div class="zone">
-                        <div class="logo pointer">
-                            <a href="https://ancientbook.bokupig.space/" target="_self">
-                                <img src="../img/base/logo60px.svg" alt="">
-                            </a>
-                        </div>
-                        <a href="#home" target="_self" class="menu">
-                            <i class="ri-download-line pointer menubutton">
-                            </i>
-                        </a>
-                    </div>
-                </div>
-            </header>
-        </section>
-        <section class="media-w899">
-            <header>
-                <div class="container">
-                    <div class="zone">
-                        <div class="logo">
-                            <a href="https://ancientbook.bokupig.space/" target="_self">
-                                <img src="../img/base/logo60px.svg" alt="">
-                            </a>
-                        </div>
-                        <a href="#home" target="_self" class="menu">
-                            <i class="ri-download-line pointer menubutton">
-                            </i>
-                        </a>
-                    </div>
-                </div>
-            </header>
-
-        </section>
-        <!--=========main body==========-->
-        <div class="ddn-body-bg">
-            <img src="../img/base/bg-fixed.png" alt="" class="ddn-background">
+</section>
+<section class="cb-description-content -mb -ct pt-35">
+    <div class="cb-description-container">
+        <div class="cb-description-header box">
+            <h2 class="-margin">
+                我主導的流程革新<br>
+                設計系統與Git整合
+            </h2>
         </div>
-        <section class="cb-tophead" id="home">
-            <div class="cb-tophead-content">
-                <div class="cb-tophead-container">
+    </div>
+</section>
+<section class="cb-description-zone pb-15">
+    <div class="cb-description-container">
+        <div class="cb-description-box">
 
-                    <div class="cb-tophead-title -aeftibr">
-                        <h2>運動APP後台管理系統-<br>
-                            UI/UX重構與設計系統建置</h2>
-                    </div>
-                    <p>
-                        挑戰將預估156天極限壓縮至92天內，針對企業後台進行 UI/UX 重構。透過建立模組化設計系統與導入 Git
-                        協作流程，解決介面與操作流程不一致痛點，成功提升團隊開發效率41%與介面設計100%一致性。
-                    </p>
-                </div>
+            <div class="cb-description-title-box">
+                <i class="fa-solid fa-highlighter icon-control"></i>
+                <p class="cb-description-title">由我主導的新協作流程：效率提升約 41%</p>
+
             </div>
-        </section>
-        <section class="cb-screenshot">
-            <div class="cb-screenshot-preview -lg">
-                <img src="./img/br-01.webp" alt="">
-            </div>
-        </section>
-        <section class="cb-brief">
-            <div class="cb-brief-content">
-                <div class="cb-brief-container">
-                    <div class="cb-brief-grid">
-                        <div class="cb-brief-grid-col -left">
-                            <div class="cb-brief-header">
-                                <h2 class="cb-brief-title">UI RWD/SaaS ERP</h2>
-                            </div>
-                        </div>
-                        <div class="cb-brief-grid-col -right">
-                            <div class="cb-brief-text-set cb-brief-text-zone">
-                                <div class="cb-brief-box pb-30">
-                                    <p class="cb-brief-title">專案簡介</p>
-                                    <div class="cb-brief-list-group">
-                                        <p>針對企業內部高流量後台進行 UI/UX 重構。本專案挑戰在於預估156天極限壓縮時程內（92天），整合舊有功能並同步開發新需求。
-                                        </p>
-                                        <div class="cb-brief-list">
-                                            <div class="cb-brief-ul-title">
-                                                <p class="eng-text alphabetical-order">●</p>
-                                                <p class="text">挑戰：<br>需整合既有舊系統與新功能需求，原系統因功能快速搬運導致 UI 邏輯與視覺風格混亂。</p>
-                                            </div>
-                                            <div class="cb-brief-ul-title">
-                                                <p class="eng-text alphabetical-order">●</p>
-                                                <p class="text">目標：<br>在有限資源下，重整 UI 架構並優化操作體驗，使後台系統邏輯與視覺保持一致。</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cb-brief-box pb-30">
-                                    <p class="cb-brief-title">我的角色與貢獻</p>
-                                    <div class="cb-brief-list-group">
-                                        <p>我是部門唯一UI/UX設計師，主導介面設計一致性與操作邏輯，同時確保專案開發效率提升。我跳脫單純的設計交付，直接參與前端架構開發：</p>
-                                        <div class="cb-brief-list">
-                                            <div class="cb-brief-ul-title">
-                                                <p class="eng-text">1.</p>
-                                                <p class="text">建立設計系統：
-                                                    <br>使用 Figma 定義規範，並將其轉化為標準化的 SCSS 元件庫。
-                                                </p>
-                                            </div>
-                                            <div class="cb-brief-ul-title">
-                                                <p class="eng-text">2.</p>
-                                                <p class="text">Git 協作開發：
-                                                    <br>直接進入 MVC 架構，透過開分支與解決衝突，減少來回溝通成本，提升整體開發效率41%。
-                                                </p>
-                                            </div>
-                                            <div class="cb-brief-ul-title">
-                                                <p class="eng-text">3.</p>
-                                                <p class="text">全局 UI/UX 實作落地：
-                                                    <br>直接優化 Razor View (.cshtml) 結構，確保設計稿 100% 還原，並解決 RWD 響應式佈局問題。
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="cb-brief-box">
-                                    <p class="cb-brief-title">專案成員</p>
-                                    <div class="cb-brief-list-group">
-                                        <div class="cb-brief-list">
-                                            <p class="text">UI/UX設計師 x1 →我</p>
-                                            <p class="text">全端工程師 x2</p>
-                                            <p class="s-text pt-30">
-                                                基於職業倫理，模糊處理並化名公司和專案名稱，揭示內容為已修改的虛構資料。如欲瞭解更多，歡迎透過人力網站與我聯繫。</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <p>
+                為了將本次專案的高效合作模式延續至未來維護，我將協作經驗系統化，制定了 「設計主導 UI
+                實作流程」。經量化評估與驗證，此流程透過減少來回溝通修正設計落差與檔案交付整合的時間成本，使整體開發效率提升約 41%。
+            </p>
+        </div>
+    </div>
+</section>
+<section class="cb-screenshot">
+    <div class="cb-screenshot-container">
+        <div class="cb-screenshot-preview -iwh Cross-functional-flowchart">
+            <img src="./img/png/br-27.png" alt="泳道圖">
+        </div>
+    </div>
+    <section class="cb-description-zone pt-60 pb-15">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <div class="cb-description-title-box">
+                    <i class="fa-solid fa-highlighter icon-control"></i>
+                    <p class="cb-description-title">明確定義協作邊界</p>
                 </div>
-            </div>
-        </section>
-        <section class="cb-description-content -mb -ct pt-35">
-            <div class="cb-description-container">
-                <div class="cb-description-header box">
-                    <h2 class="-margin">
-                        我主導的流程革新<br>
-                        設計系統與Git整合
-                    </h2>
-                </div>
-            </div>
-        </section>
-        <section class="cb-description-zone pb-15">
-            <div class="cb-description-container">
-                <div class="cb-description-box">
-
-                    <div class="cb-description-title-box">
-                        <i class="fa-solid fa-highlighter icon-control"></i>
-                        <p class="cb-description-title">由我主導的新協作流程：效率提升約 41%</p>
-
-                    </div>
-                    <p>
-                        為了將本次專案的高效合作模式延續至未來維護，我將協作經驗系統化，制定了 「設計主導 UI
-                        實作流程」。經量化評估與驗證，此流程透過減少來回溝通修正設計落差與檔案交付整合的時間成本，使整體開發效率提升約 41%。
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="cb-screenshot">
-            <div class="cb-screenshot-container">
-                <div class="cb-screenshot-preview -iwh Cross-functional-flowchart">
-                    <img src="./img/png/br-27.png" alt="泳道圖">
-                </div>
-            </div>
-            <section class="cb-description-zone pt-60 pb-15">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <div class="cb-description-title-box">
-                            <i class="fa-solid fa-highlighter icon-control"></i>
-                            <p class="cb-description-title">明確定義協作邊界</p>
-                        </div>
-                        <div class="p-list-zone">
-                            <ul class="p-list-container -w100">
-                                <li class="item -g-col-1">
-                                    <p>
-                                        為了讓工程師安心放權，我制定了嚴格的「程式碼修改白名單」，確保設計師在優化介面的同時，不影響後端邏輯穩定性：
-                                    </p>
-                                    <div class="box pl-10 pt-05 pb-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>UI/UX設計師權責：<br>徹底解決舊系統中「同一元件多種樣式」的視覺雜訊，將按鈕、表單、Popup 等元件模組化，確保全站視覺與互動邏輯 100%
-                                            統一。</p>
-                                    </div>
-                                    <div class="box pl-10 pt-10 pb-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>工程師權責：<br>負責功能與資料邏輯。</p>
-                                    </div>
-                                    <div class="box pl-10 pt-10 pb-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>協作機制：<br>若調整樣式需更動到結構邏輯，我會留下註解並開單通知工程師處理。</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="cb-description-zone pt-35 pb-15">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <div class="cb-description-title-box">
-                            <i class="fa-solid fa-highlighter icon-control"></i>
-                            <p class="cb-description-title">實踐：Git同步與模組化SCSS架構</p>
-                        </div>
-                        <div class="p-list-zone">
-                            <ul class="p-list-container -w100">
-                                <li class="item -g-col-1">
-                                    <p>
-                                        在此標準化流程下，我直接掌管專案的視覺層代碼，確保「設計語言」與「程式語言」的無縫接軌。
-                                    </p>
-                                </li>
-                                <li class="item -g-col-1">
-                                    <div class="box pl-10 pt-05 pb-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>Git 協作：<br>透過分支管理與 pull、merge、push以及cherry-pick
-                                            等基礎技巧，實現設計與功能的並行開發，大幅縮短功能上線前的UI修正週期。</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <section class="cb-screenshot pt-35 pb-35">
-                                        <div class="cb-screenshot-container">
-                                            <div class="cb-screenshot-preview -iwh ">
-                                                <img src="./img/png/br-26.png" alt="">
-                                            </div>
-                                        </div>
-                                    </section>
-                                </li>
-
-                                <li class="item -g-col-1">
-                                    <div class="box pl-10 pt-10 pb-25">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>SCSS架構主導：<br>避免多人維護常見的「視覺偏移 (Visual Drift)」與樣式衝突，我建立了嚴謹的分層管理機制--</p>
-                                    </div>
-                                    <ul class="p-list-container -w100 pl-10">
-                                        <div class="box pl-10">
-                                            <p class="eng-text alphabetical-order -num">1.</p>
-                                            <p>設計系統：<br>定義全域變數，確保設計一致性</p>
-                                        </div>
-                                        <div class="box pl-10">
-                                            <p class="eng-text alphabetical-order -num">2.</p>
-                                            <p>Component 元件：<br>封裝按鈕、表單、彈窗等可複用元件，落實Component-First思維。</p>
-                                        </div>
-                                        <div class="box pl-10">
-                                            <p class="eng-text alphabetical-order -num">3.</p>
-                                            <p>頁面樣式 ：<br>頁面的佈局樣式檔案獨立，並嚴格限制其影響範圍。</p>
-                                        </div>
-                                    </ul>
-
-                                </li>
-
-                                <li class="item -g-col-1">
-                                    <div class="box pl-10 pt-10 pb-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>成效：<br>確立了 CSS
-                                            為「視覺邏輯」的核心地位。由設計師統一維護，不僅消除了傳統流程中的「轉譯落差」，更確保了程式碼的潔淨度與可擴充性。若調整樣式需更動到結構邏輯，我會留下註解並開單通知工程師。
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="cb-description-zone pt-35 pb-15">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <div class="cb-description-title-box">
-                            <i class="fa-solid fa-highlighter icon-control"></i>
-                            <p class="cb-description-title">模組化SCSS架構展示</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="cb-screenshot-swiper-zone">
-                <div class="cb-screenshot-swiper-container swiper Swiper_01">
-                    <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="./img/png/br-23.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./img/png/br-25.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="./img/png/br-24.png" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-            </section>
-
-
-            <section class="cb-description-zone pt-35 pb-15">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <div class="cb-description-title-box">
-                            <i class="fa-solid fa-highlighter icon-control"></i>
-                            <p class="cb-description-title">模組化實例展示</p>
-                        </div>
-                        <p>
-                            Popup 模組化：<br>針對舊系統中樣式破裂且無法關閉的彈跳視窗，我重構了 HTML 結構並套用標準化 CSS。這不僅修復了 UI 錯誤，更讓未來的 Popup
-                            開發時間縮短至原本的
-                            30%。
-                        </p>
-                    </div>
-                </div>
-            </section>
-            <section class="cb-screenshot">
-                <div class="cb-screenshot-container">
-                    <div class="cb-screenshot-preview -iwh beforetext">
-                        <img src="./img/png/br-04.png" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="cb-screenshot-swiper-zone">
-                <div class="cb-screenshot-swiper-container swiper Swiper_01">
-                    <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
-                        <div class="swiper-slide aftertext">
-                            <video loop autoplay muted playsinline preload="auto">
-                                <source src="./video/webm/R-05 nq.webm" type="video/webm">
-                            </video>
-                        </div>
-                        <div class="swiper-slide aftertext">
-                            <video loop autoplay muted playsinline preload="auto">
-                                <source src="./video/webm/R-02 nq.webm" type="video/webm">
-                            </video>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-            </section>
-
-            <section class="cb-description-zone pt-60 pb-15">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <div class="cb-description-title-box">
-                            <i class="fa-solid fa-highlighter icon-control"></i>
-                            <p class="cb-description-title">Git協作與部署實例展示</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="cb-screenshot">
-                <div class="cb-screenshot-container">
-                    <div class="cb-screenshot-preview -iwh">
-                        <video loop="" autoplay="" muted="" playsinline="" preload="auto">
-                            <source src="./video/webm/R-04.webm" type="video/webm">
-                        </video>
-                    </div>
-                </div>
-            </section>
-            <section class="cb-description-zone figure-container">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <figure class="figure">圖示/透過視覺化Git工具管理UI更新</figure>
-                    </div>
-                </div>
-            </section>
-
-            <section class="cb-description-content -mb">
-                <div class="cb-description-container">
-                    <div class="cb-description-header box">
-                        <h2 class="-margin">
-                            資訊架構<br>
-                            與響應式設計策略
-                        </h2>
-                    </div>
-                </div>
-            </section>
-            <section class="cb-description-zone pb-15">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <div class="cb-description-title-box">
-                            <i class="fa-solid fa-highlighter icon-control"></i>
-                            <p class="cb-description-title">桌面端→優化高密度資料呈現</p>
-                        </div>
-                        <div class="p-list-zone">
-                            <ul class="p-list-container -w100">
-                                <li class="item -g-col-1">
-                                    <p>
-                                        針對後台系統資訊過載的問題，我重新定義了版面配置優先級。
-                                    </p>
-                                    <div class="box pl-10 pt-05 pb-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>導航體驗：<br>固定 Sidebar 寬度並導入階層式選單，確保導航文字不因內容擠壓而換行，維持清晰的導引功能。</p>
-                                    </div>
-                                    <div class="box pl-10 pt-10">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>表格易讀性：<br>捨棄強行縮放表格的作法，改為保留欄位最佳寬度並搭配水平滾動 (Horizontal
-                                            Scroll)，優先展示重要數據，降低使用者閱讀壓力。
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="cb-screenshot">
-                <div class="cb-screenshot-container">
-                    <div class="cb-screenshot-preview beforetext -iwh">
-                        <img src="./img/png/br-08.png" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="cb-screenshot">
-                <div class="cb-screenshot-container">
-                    <div class="cb-screenshot-preview aftertext -iwh">
-                        <img src="./img/png/br-09.png" alt="">
-                    </div>
-                </div>
-            </section>
-
-            <section class="cb-description-zone pt-60 pb-15">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <div class="cb-description-title-box">
-                            <i class="fa-solid fa-highlighter icon-control"></i>
-                            <p class="cb-description-title">移動端→Table to Card 響應式轉換</p>
-                        </div>
-                        <div class="p-list-zone">
-                            <ul class="p-list-container -w100">
-                                <li class="item -g-col-1">
-                                    <p>
-                                        為了讓使用者能隨時隨地透過平板或手機操作後台，我制定了明確的RWD策略。
-                                    </p>
-                                    <div class="box pl-10 pt-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>移動裝置體驗：<br>當螢幕小於 767px 時，自動將複雜的表格資料轉換為 卡片式 (Card UI)
-                                            排列。這符合移動裝置的垂直瀏覽習慣，確保資訊在窄螢幕上依然清晰可讀。</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="cb-screenshot">
-                <div class="cb-screenshot-container">
-                    <div class="cb-screenshot-preview beforetext -iwh">
-                        <img src="./img/png/br-07.png" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="cb-screenshot-swiper-zone">
-                <div class="cb-screenshot-swiper-container swiper Swiper_01">
-                    <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
-                        <div class="swiper-slide aftertext">
-                            <img src="./img/png/br-10.png" alt="">
-                        </div>
-                        <div class="swiper-slide aftertext">
-                            <video loop autoplay muted playsinline preload="auto">
-                                <source src="./video/webm/R-06 nq.webm" type="video/webm">
-                            </video>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-            </section>
-
-            <section class="cb-description-zone pt-60 pb-15">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <div class="cb-description-title-box">
-                            <i class="fa-solid fa-highlighter icon-control"></i>
-                            <p class="cb-description-title">邏輯統一 →標準化篩選模組換
-
+                <div class="p-list-zone">
+                    <ul class="p-list-container -w100">
+                        <li class="item -g-col-1">
+                            <p>
+                                為了讓工程師安心放權，我制定了嚴格的「程式碼修改白名單」，確保設計師在優化介面的同時，不影響後端邏輯穩定性：
                             </p>
-                        </div>
-                        <div class="p-list-zone">
-                            <ul class="p-list-container -w100">
-                                <li class="item -g-col-1">
-                                    <p>
-                                        解決舊系統中篩選功能散落、邏輯不一的問題。
-                                    </p>
-                                    <div class="box pl-10 pt-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>架構決策：<br>考量設計落地性，我主動規劃了兩套實作方案（共用入口 vs
-                                            各頁獨立按鈕）並發起技術評估。經與工程師討論後，選定擴充性最佳的「統一篩選側欄」模組。
-                                        </p>
+                            <div class="box pl-10 pt-05 pb-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>UI/UX設計師權責：<br>徹底解決舊系統中「同一元件多種樣式」的視覺雜訊，將按鈕、表單、Popup 等元件模組化，確保全站視覺與互動邏輯 100%
+                                    統一。</p>
+                            </div>
+                            <div class="box pl-10 pt-10 pb-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>工程師權責：<br>負責功能與資料邏輯。</p>
+                            </div>
+                            <div class="box pl-10 pt-10 pb-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>協作機制：<br>若調整樣式需更動到結構邏輯，我會留下註解並開單通知工程師處理。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cb-description-zone pt-35 pb-15">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <div class="cb-description-title-box">
+                    <i class="fa-solid fa-highlighter icon-control"></i>
+                    <p class="cb-description-title">實踐：Git同步與模組化SCSS架構</p>
+                </div>
+                <div class="p-list-zone">
+                    <ul class="p-list-container -w100">
+                        <li class="item -g-col-1">
+                            <p>
+                                在此標準化流程下，我直接掌管專案的視覺層代碼，確保「設計語言」與「程式語言」的無縫接軌。
+                            </p>
+                        </li>
+                        <li class="item -g-col-1">
+                            <div class="box pl-10 pt-05 pb-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>Git 協作：<br>透過分支管理與 pull、merge、push以及cherry-pick
+                                    等基礎技巧，實現設計與功能的並行開發，大幅縮短功能上線前的UI修正週期。</p>
+                            </div>
+                        </li>
+                        <li>
+                            <section class="cb-screenshot pt-35 pb-35">
+                                <div class="cb-screenshot-container">
+                                    <div class="cb-screenshot-preview -iwh ">
+                                        <img src="./img/png/br-26.png" alt="">
                                     </div>
-                                    <div class="box pl-10 pt-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>設計落地：<br>將觸發按鈕固定於 Header，側欄容器共用，內容則由各頁面動態注入。這不僅統一了全站的操作心智模型，也讓程式碼結構更易於維護與擴充。
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="cb-screenshot">
-                <div class="cb-screenshot-container">
-                    <div class="cb-screenshot-preview beforetext -iwh">
-                        <img src="./img/png/br-11.png" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="cb-screenshot-swiper-zone">
-                <div class="cb-screenshot-swiper-container swiper Swiper_01">
-                    <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
-                        <div class="swiper-slide aftertext">
-                            <img src="./img/png/br-11-1.png" alt="">
-                        </div>
-                        <div class="swiper-slide aftertext">
-                            <video loop autoplay muted playsinline preload="auto">
-                                <source src="./video/webm/R-07 nq.webm" type="video/webm">
-                            </video>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-            </section>
+                                </div>
+                            </section>
+                        </li>
 
-            <section class="cb-description-content -mb">
-                <div class="cb-description-container">
-                    <div class="cb-description-header box">
-                        <h2 class="-margin">
-                            套件與原生元件重構<br>
-                            極致視覺統合
-                        </h2>
-                    </div>
-                </div>
-            </section>
-            <section class="cb-description-zone pb-15">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <div class="cb-description-title-box">
-                            <i class="fa-solid fa-highlighter icon-control"></i>
-                            <p class="cb-description-title">突破技術限制</p>
-                        </div>
-                        <div class="p-list-zone">
-                            <ul class="p-list-container -w100">
-                                <p>JS 套件深度客製 (SweetAlert2)</p>
-                                <li class="item -g-col-1">
-                                    <p>
-                                        在整合第三方提示套件 SweetAlert2 時，面臨樣式與結構被封裝在 JavaScript 中，導致標準 CSS 覆蓋失效的難題。
-                                    </p>
-                                    <div class="box pl-10 pt-05 pb-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>協作解決：<br>我主動提出視覺整合需求，並與工程師協作。由工程師協助梳理JS設定檔結構，創造出讓我能介入的維護空間。</p>
-                                    </div>
-                                    <div class="box pl-10 pt-10">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>直接實作：<br>我直接進入 JS 檔案中調整樣式參數與 Class
-                                            設定，成功將原本風格迥異的套件，「客製化」為符合設計系統規範的標準元件，實現了真正意義上的全站視覺統一。
-                                        </p>
-                                    </div>
-                                </li>
+                        <li class="item -g-col-1">
+                            <div class="box pl-10 pt-10 pb-25">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>SCSS架構主導：<br>避免多人維護常見的「視覺偏移 (Visual Drift)」與樣式衝突，我建立了嚴謹的分層管理機制--</p>
+                            </div>
+                            <ul class="p-list-container -w100 pl-10">
+                                <div class="box pl-10">
+                                    <p class="eng-text alphabetical-order -num">1.</p>
+                                    <p>設計系統：<br>定義全域變數，確保設計一致性</p>
+                                </div>
+                                <div class="box pl-10">
+                                    <p class="eng-text alphabetical-order -num">2.</p>
+                                    <p>Component 元件：<br>封裝按鈕、表單、彈窗等可複用元件，落實Component-First思維。</p>
+                                </div>
+                                <div class="box pl-10">
+                                    <p class="eng-text alphabetical-order -num">3.</p>
+                                    <p>頁面樣式 ：<br>頁面的佈局樣式檔案獨立，並嚴格限制其影響範圍。</p>
+                                </div>
                             </ul>
-                        </div>
-                    </div>
+
+                        </li>
+
+                        <li class="item -g-col-1">
+                            <div class="box pl-10 pt-10 pb-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>成效：<br>確立了 CSS
+                                    為「視覺邏輯」的核心地位。由設計師統一維護，不僅消除了傳統流程中的「轉譯落差」，更確保了程式碼的潔淨度與可擴充性。若調整樣式需更動到結構邏輯，我會留下註解並開單通知工程師。
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </section>
-            <section class="cb-screenshot">
-                <div class="cb-screenshot-container">
-                    <div class="cb-screenshot-preview beforetext -iwh">
-                        <img src="./img/png/br-14.png" alt="">
-                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cb-description-zone pt-35 pb-15">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <div class="cb-description-title-box">
+                    <i class="fa-solid fa-highlighter icon-control"></i>
+                    <p class="cb-description-title">模組化SCSS架構展示</p>
                 </div>
-            </section>
-            <section class="cb-screenshot">
-                <div class="cb-screenshot-container">
-                    <div class="cb-screenshot-preview aftertext -iwh">
-                        <video loop="" autoplay="" muted="" playsinline="" preload="auto">
-                            <source src="./video/webm/R-09 nq.webm" type="video/webm">
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot-swiper-zone">
+        <div class="cb-screenshot-swiper-container swiper Swiper_01">
+            <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./img/png/br-23.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/png/br-25.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/png/br-24.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+
+    <section class="cb-description-zone pt-35 pb-15">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <div class="cb-description-title-box">
+                    <i class="fa-solid fa-highlighter icon-control"></i>
+                    <p class="cb-description-title">模組化實例展示</p>
+                </div>
+                <p>
+                    Popup 模組化：<br>針對舊系統中樣式破裂且無法關閉的彈跳視窗，我重構了 HTML 結構並套用標準化 CSS。這不僅修復了 UI 錯誤，更讓未來的 Popup
+                    開發時間縮短至原本的
+                    30%。
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot">
+        <div class="cb-screenshot-container">
+            <div class="cb-screenshot-preview -iwh beforetext">
+                <img src="./img/png/br-04.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot-swiper-zone">
+        <div class="cb-screenshot-swiper-container swiper Swiper_01">
+            <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
+                <div class="swiper-slide aftertext">
+                    <video loop autoplay muted playsinline preload="auto">
+                        <source src="./video/webm/R-05 nq.webm" type="video/webm">
+                    </video>
+                </div>
+                <div class="swiper-slide aftertext">
+                    <video loop autoplay muted playsinline preload="auto">
+                        <source src="./video/webm/R-02 nq.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section class="cb-description-zone pt-60 pb-15">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <div class="cb-description-title-box">
+                    <i class="fa-solid fa-highlighter icon-control"></i>
+                    <p class="cb-description-title">Git協作與部署實例展示</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot">
+        <div class="cb-screenshot-container">
+            <div class="cb-screenshot-preview -iwh">
+                <video loop="" autoplay="" muted="" playsinline="" preload="auto">
+                    <source src="./video/webm/R-04.webm" type="video/webm">
+                </video>
+            </div>
+        </div>
+    </section>
+    <section class="cb-description-zone figure-container">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <figure class="figure">圖示/透過視覺化Git工具管理UI更新</figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="cb-description-content -mb">
+        <div class="cb-description-container">
+            <div class="cb-description-header box">
+                <h2 class="-margin">
+                    資訊架構<br>
+                    與響應式設計策略
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="cb-description-zone pb-15">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <div class="cb-description-title-box">
+                    <i class="fa-solid fa-highlighter icon-control"></i>
+                    <p class="cb-description-title">桌面端→優化高密度資料呈現</p>
+                </div>
+                <div class="p-list-zone">
+                    <ul class="p-list-container -w100">
+                        <li class="item -g-col-1">
+                            <p>
+                                針對後台系統資訊過載的問題，我重新定義了版面配置優先級。
+                            </p>
+                            <div class="box pl-10 pt-05 pb-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>導航體驗：<br>固定 Sidebar 寬度並導入階層式選單，確保導航文字不因內容擠壓而換行，維持清晰的導引功能。</p>
+                            </div>
+                            <div class="box pl-10 pt-10">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>表格易讀性：<br>捨棄強行縮放表格的作法，改為保留欄位最佳寬度並搭配水平滾動 (Horizontal
+                                    Scroll)，優先展示重要數據，降低使用者閱讀壓力。
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot">
+        <div class="cb-screenshot-container">
+            <div class="cb-screenshot-preview beforetext -iwh">
+                <img src="./img/png/br-08.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot">
+        <div class="cb-screenshot-container">
+            <div class="cb-screenshot-preview aftertext -iwh">
+                <img src="./img/png/br-09.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="cb-description-zone pt-60 pb-15">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <div class="cb-description-title-box">
+                    <i class="fa-solid fa-highlighter icon-control"></i>
+                    <p class="cb-description-title">移動端→Table to Card 響應式轉換</p>
+                </div>
+                <div class="p-list-zone">
+                    <ul class="p-list-container -w100">
+                        <li class="item -g-col-1">
+                            <p>
+                                為了讓使用者能隨時隨地透過平板或手機操作後台，我制定了明確的RWD策略。
+                            </p>
+                            <div class="box pl-10 pt-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>移動裝置體驗：<br>當螢幕小於 767px 時，自動將複雜的表格資料轉換為 卡片式 (Card UI)
+                                    排列。這符合移動裝置的垂直瀏覽習慣，確保資訊在窄螢幕上依然清晰可讀。</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot">
+        <div class="cb-screenshot-container">
+            <div class="cb-screenshot-preview beforetext -iwh">
+                <img src="./img/png/br-07.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot-swiper-zone">
+        <div class="cb-screenshot-swiper-container swiper Swiper_01">
+            <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
+                <div class="swiper-slide aftertext">
+                    <img src="./img/png/br-10.png" alt="">
+                </div>
+                <div class="swiper-slide aftertext">
+                    <video loop autoplay muted playsinline preload="auto">
+                        <source src="./video/webm/R-06 nq.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section class="cb-description-zone pt-60 pb-15">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <div class="cb-description-title-box">
+                    <i class="fa-solid fa-highlighter icon-control"></i>
+                    <p class="cb-description-title">邏輯統一 →標準化篩選模組換
+
+                    </p>
+                </div>
+                <div class="p-list-zone">
+                    <ul class="p-list-container -w100">
+                        <li class="item -g-col-1">
+                            <p>
+                                解決舊系統中篩選功能散落、邏輯不一的問題。
+                            </p>
+                            <div class="box pl-10 pt-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>架構決策：<br>考量設計落地性，我主動規劃了兩套實作方案（共用入口 vs
+                                    各頁獨立按鈕）並發起技術評估。經與工程師討論後，選定擴充性最佳的「統一篩選側欄」模組。
+                                </p>
+                            </div>
+                            <div class="box pl-10 pt-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>設計落地：<br>將觸發按鈕固定於 Header，側欄容器共用，內容則由各頁面動態注入。這不僅統一了全站的操作心智模型，也讓程式碼結構更易於維護與擴充。
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot">
+        <div class="cb-screenshot-container">
+            <div class="cb-screenshot-preview beforetext -iwh">
+                <img src="./img/png/br-11.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot-swiper-zone">
+        <div class="cb-screenshot-swiper-container swiper Swiper_01">
+            <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
+                <div class="swiper-slide aftertext">
+                    <img src="./img/png/br-11-1.png" alt="">
+                </div>
+                <div class="swiper-slide aftertext">
+                    <video loop autoplay muted playsinline preload="auto">
+                        <source src="./video/webm/R-07 nq.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <section class="cb-description-content -mb">
+        <div class="cb-description-container">
+            <div class="cb-description-header box">
+                <h2 class="-margin">
+                    套件與原生元件重構<br>
+                    極致視覺統合
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="cb-description-zone pb-15">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <div class="cb-description-title-box">
+                    <i class="fa-solid fa-highlighter icon-control"></i>
+                    <p class="cb-description-title">突破技術限制</p>
+                </div>
+                <div class="p-list-zone">
+                    <ul class="p-list-container -w100">
+                        <p>JS 套件深度客製 (SweetAlert2)</p>
+                        <li class="item -g-col-1">
+                            <p>
+                                在整合第三方提示套件 SweetAlert2 時，面臨樣式與結構被封裝在 JavaScript 中，導致標準 CSS 覆蓋失效的難題。
+                            </p>
+                            <div class="box pl-10 pt-05 pb-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>協作解決：<br>我主動提出視覺整合需求，並與工程師協作。由工程師協助梳理JS設定檔結構，創造出讓我能介入的維護空間。</p>
+                            </div>
+                            <div class="box pl-10 pt-10">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>直接實作：<br>我直接進入 JS 檔案中調整樣式參數與 Class
+                                    設定，成功將原本風格迥異的套件，「客製化」為符合設計系統規範的標準元件，實現了真正意義上的全站視覺統一。
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot">
+        <div class="cb-screenshot-container">
+            <div class="cb-screenshot-preview beforetext -iwh">
+                <img src="./img/png/br-14.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot">
+        <div class="cb-screenshot-container">
+            <div class="cb-screenshot-preview aftertext -iwh">
+                <video loop="" autoplay="" muted="" playsinline="" preload="auto">
+                    <source src="./video/webm/R-09 nq.webm" type="video/webm">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section class="cb-description-zone pt-60 pb-15">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <div class="cb-description-title-box">
+                    <i class="fa-solid fa-highlighter icon-control"></i>
+                    <p class="cb-description-title">廣泛覆蓋</p>
+                </div>
+                <div class="p-list-zone">
+                    <ul class="p-list-container -w100">
+                        <p>表單與功能元件的全面統合</p>
+                        <li class="item -g-col-1">
+                            <p>
+                                針對select2 多選擇套件、TinyMCE 文章編輯器等常見的第三方套件，我也逐一進行了標準化處理。
+                            </p>
+                            <div class="box pl-10 pt-05 pb-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>全面性：<br>我不僅處理了單一元件，更將所有套件的控制項與導航頁碼納入規範。</p>
+                            </div>
+                            <div class="box pl-10 pt-10">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>視覺一致：<br>透過全域 CSS 覆寫，消除不同套件原生的視覺差異（如邊框顏色、圓角、選取狀態），確保使用者在操作任何功能時，都能獲得一致的視覺回饋。
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot-swiper-zone">
+        <div class="cb-screenshot-swiper-container swiper Swiper_01">
+            <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
+                <div class="swiper-slide comparison-container -run">
+                    <div class="img-container before-box beforetext">
+                        <img src="./img/png/br-16.png" alt="">
+                    </div>
+                    <div class="video-container after-box aftertext">
+                        <video loop autoplay muted playsinline preload="auto">
+                            <source src="./video/webm/R-11 nq.webm" type="video/webm">
                         </video>
                     </div>
                 </div>
-            </section>
+                <div class="swiper-slide comparison-container -run">
+                    <div class="img-container before-box beforetext">
+                        <img src="./img/png/br-15.png" alt="">
+                    </div>
+                    <div class="img-container after-box aftertext">
+                        <img src="./img/png/br-19.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide comparison-container -run">
+                    <div class="img-container before-box beforetext">
+                        <img src="./img/png/br-13.png" alt="">
+                    </div>
+                    <div class="img-container after-box aftertext">
+                        <img src="./img/png/br-18.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide comparison-container -run">
+                    <div class="img-container before-box beforetext">
+                        <img src="./img/png/br-17.png" alt="">
+                    </div>
+                    <div class="img-container after-box aftertext">
+                        <img src="./img/png/br-20.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
 
-            <section class="cb-description-zone pt-60 pb-15">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <div class="cb-description-title-box">
-                            <i class="fa-solid fa-highlighter icon-control"></i>
-                            <p class="cb-description-title">廣泛覆蓋</p>
-                        </div>
-                        <div class="p-list-zone">
-                            <ul class="p-list-container -w100">
-                                <p>表單與功能元件的全面統合</p>
-                                <li class="item -g-col-1">
-                                    <p>
-                                        針對select2 多選擇套件、TinyMCE 文章編輯器等常見的第三方套件，我也逐一進行了標準化處理。
-                                    </p>
-                                    <div class="box pl-10 pt-05 pb-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>全面性：<br>我不僅處理了單一元件，更將所有套件的控制項與導航頁碼納入規範。</p>
-                                    </div>
-                                    <div class="box pl-10 pt-10">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>視覺一致：<br>透過全域 CSS 覆寫，消除不同套件原生的視覺差異（如邊框顏色、圓角、選取狀態），確保使用者在操作任何功能時，都能獲得一致的視覺回饋。
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+    <section class="cb-description-zone pt-60 pb-15">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <div class="cb-description-title-box">
+                    <i class="fa-solid fa-highlighter icon-control"></i>
+                    <p class="cb-description-title">原生元件重構</p>
                 </div>
-            </section>
-            <section class="cb-screenshot-swiper-zone">
-                <div class="cb-screenshot-swiper-container swiper Swiper_01">
-                    <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
-                        <div class="swiper-slide comparison-container -run">
-                            <div class="img-container before-box beforetext">
-                                <img src="./img/png/br-16.png" alt="">
+                <div class="p-list-zone">
+                    <ul class="p-list-container -w100">
+                        <p>突破瀏覽器限制</p>
+                        <li class="item -g-col-1">
+                            <p>
+                                針對原生 &lt;select&gt;為了克服作業系統渲染差異帶來的視覺斷層，並確保使用者擁有一致的操作體驗，我決定重建核心架構。
+                            </p>
+                            <div class="box pl-10 pt-05 pb-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>主動重構：<br>主動與工程師溝通後，我摒棄原生標籤，使用重寫了符合 Design System 的下拉選單結構。</p>
                             </div>
-                            <div class="video-container after-box aftertext">
-                                <video loop autoplay muted playsinline preload="auto">
-                                    <source src="./video/webm/R-11 nq.webm" type="video/webm">
-                                </video>
+                            <div class="box pl-10 pt-10">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>無縫協作：<br>我交付了包含清楚註解與狀態樣式 (如.active) 的 .cshtml
+                                    程式碼，讓後端工程師只需專注於資料綁定與點擊邏輯，成功實現了全站一致的高客製化選單體驗。
+                                </p>
                             </div>
-                        </div>
-                        <div class="swiper-slide comparison-container -run">
-                            <div class="img-container before-box beforetext">
-                                <img src="./img/png/br-15.png" alt="">
-                            </div>
-                            <div class="img-container after-box aftertext">
-                                <img src="./img/png/br-19.png" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide comparison-container -run">
-                            <div class="img-container before-box beforetext">
-                                <img src="./img/png/br-13.png" alt="">
-                            </div>
-                            <div class="img-container after-box aftertext">
-                                <img src="./img/png/br-18.png" alt="">
-                            </div>
-                        </div>
-                        <div class="swiper-slide comparison-container -run">
-                            <div class="img-container before-box beforetext">
-                                <img src="./img/png/br-17.png" alt="">
-                            </div>
-                            <div class="img-container after-box aftertext">
-                                <img src="./img/png/br-20.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                        </li>
+                    </ul>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot">
+        <div class="cb-screenshot-container">
+            <div class="cb-screenshot-preview beforetext -iwh">
+                <img src="./img/png/br-21.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="cb-screenshot-swiper-zone">
+        <div class="cb-screenshot-swiper-container swiper Swiper_01">
+            <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
+                <div class="swiper-slide aftertext">
+                    <video loop autoplay muted playsinline preload="auto">
+                        <source src="./video/webm/R-08 nq.webm" type="video/webm">
+                    </video>
+                </div>
+                <div class="swiper-slide aftertext">
+                    <img src="./img/png/br-22.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
 
-            <section class="cb-description-zone pt-60 pb-15">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <div class="cb-description-title-box">
-                            <i class="fa-solid fa-highlighter icon-control"></i>
-                            <p class="cb-description-title">原生元件重構</p>
-                        </div>
-                        <div class="p-list-zone">
-                            <ul class="p-list-container -w100">
-                                <p>突破瀏覽器限制</p>
-                                <li class="item -g-col-1">
-                                    <p>
-                                        針對原生 &lt;select&gt;為了克服作業系統渲染差異帶來的視覺斷層，並確保使用者擁有一致的操作體驗，我決定重建核心架構。
-                                    </p>
-                                    <div class="box pl-10 pt-05 pb-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>主動重構：<br>主動與工程師溝通後，我摒棄原生標籤，使用重寫了符合 Design System 的下拉選單結構。</p>
-                                    </div>
-                                    <div class="box pl-10 pt-10">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>無縫協作：<br>我交付了包含清楚註解與狀態樣式 (如.active) 的 .cshtml
-                                            程式碼，讓後端工程師只需專注於資料綁定與點擊邏輯，成功實現了全站一致的高客製化選單體驗。
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="cb-screenshot">
-                <div class="cb-screenshot-container">
-                    <div class="cb-screenshot-preview beforetext -iwh">
-                        <img src="./img/png/br-21.png" alt="">
-                    </div>
-                </div>
-            </section>
-            <section class="cb-screenshot-swiper-zone">
-                <div class="cb-screenshot-swiper-container swiper Swiper_01">
-                    <div class="cb-screenshot-wrapper -iwh swiper-wrapper">
-                        <div class="swiper-slide aftertext">
-                            <video loop autoplay muted playsinline preload="auto">
-                                <source src="./video/webm/R-08 nq.webm" type="video/webm">
-                            </video>
-                        </div>
-                        <div class="swiper-slide aftertext">
-                            <img src="./img/png/br-22.png" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                </div>
-            </section>
+    <section class="cb-description-content -mb">
+        <div class="cb-description-container">
+            <div class="cb-description-header box">
+                <h2 class="-margin">
+                    總結：<br>
+                    設計與開發的橋樑
+                </h2>
+            </div>
 
-            <section class="cb-description-content -mb">
-                <div class="cb-description-container">
-                    <div class="cb-description-header box">
-                        <h2 class="-margin">
-                            總結：<br>
-                            設計與開發的橋樑
-                        </h2>
-                    </div>
-                    
+        </div>
+    </section>
+    <section class="cb-description-zone pb-60">
+        <div class="cb-description-container">
+            <div class="cb-description-box">
+                <p>這個專案不僅是一次介面重構，更是協作模式的革新。</p>
+                <p>我跳脫了傳統設計師的角色邊界，透過 Git 同步開發 與 程式碼實作，成功打破了「設計交付 vs 工程實作」的高牆，並具體解決了三大問題：</p>
+                <div class="p-list-zone">
+                    <ul class="p-list-container -w100">
+                        <li class="item -g-col-1">
+                            <div class="box pl-10 pt-05 pb-05">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>降低溝通成本：<br>直接修正 UI 細節，減少來回確認與製作標註文件的時間。</p>
+                            </div>
+                            <div class="box pl-10 pt-10">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>消除落地落差：<br>確保最終產品的視覺與互動細節，與設計稿分毫不差。
+                                </p>
+                            </div>
+                            <div class="box pl-10 pt-10">
+                                <p class="eng-text alphabetical-order">●</p>
+                                <p>提升團隊效率：<br>讓工程師專注於後端邏輯，讓設計師全權掌握視覺品質。
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-            </section>
-            <section class="cb-description-zone pb-60">
-                <div class="cb-description-container">
-                    <div class="cb-description-box">
-                        <p>這個專案不僅是一次介面重構，更是協作模式的革新。</p>
-                        <p>我跳脫了傳統設計師的角色邊界，透過 Git 同步開發 與 程式碼實作，成功打破了「設計交付 vs 工程實作」的高牆，並具體解決了三大問題：</p>
-                        <div class="p-list-zone">
-                            <ul class="p-list-container -w100">
-                                <li class="item -g-col-1">
-                                    <div class="box pl-10 pt-05 pb-05">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>降低溝通成本：<br>直接修正 UI 細節，減少來回確認與製作標註文件的時間。</p>
-                                    </div>
-                                    <div class="box pl-10 pt-10">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>消除落地落差：<br>確保最終產品的視覺與互動細節，與設計稿分毫不差。
-                                        </p>
-                                    </div>
-                                    <div class="box pl-10 pt-10">
-                                        <p class="eng-text alphabetical-order">●</p>
-                                        <p>提升團隊效率：<br>讓工程師專注於後端邏輯，讓設計師全權掌握視覺品質。
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <br>
-                        <p>
-                            我已準備好，將這份跨領域的協作價值帶入您的團隊。
-                        </p>
-                    </div>
-                </div>
-            </section>
+                <br>
+                <p>
+                    我已準備好，將這份跨領域的協作價值帶入您的團隊。
+                </p>
+            </div>
+        </div>
+    </section>
 
-
-            <footer-zone></footer-zone>
-    </div>
-    <script src="../js/nav.js"></script>
-    <script src="../js/footer.js"></script>
-    <script src="../js/app2.js"></script>
-    <script src="../js/disablelongpress.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".Swiper_01", {
@@ -812,6 +715,6 @@
             },
         });
     </script>
-</body>
+    </body>
 
-</html>
+    </html>
